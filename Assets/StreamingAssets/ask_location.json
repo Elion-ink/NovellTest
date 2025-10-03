@@ -1,0 +1,15 @@
+{
+  "id": "ask_location",
+  "dialogue": [
+    {
+      "name": "NPC",
+      "text": "Где ты находишься?"
+    }
+  ],
+  "options": [
+    {
+      "text": "Даю локацию",
+      "nextNode": "next_node"
+    }
+  ]
+}

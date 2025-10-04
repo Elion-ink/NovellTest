@@ -22,24 +22,29 @@ public class DialogueOption
 public class DialogueNode
 {
     public string id;                  // ID узла
-    public DialogueLine[] dialogue;    // Массив реплик
+    public string background;          // Фон сцены (новое поле)
+    public DialogueLine[] dialogue;    // Реплики
     public DialogueOption[] options;   // Варианты выбора
 }
 
 public class DialogueManager : MonoBehaviour
 {
-    public TextMeshProUGUI nameText;           // UI для имени персонажа
-    public TextMeshProUGUI dialogueText;       // UI для реплики
-    public GameObject optionsContainer;        // Контейнер для кнопок
-    public GameObject optionButtonPrefab;      // Префаб кнопки выбора
-    public Image characterImage;               // Спрайт персонажа на экране
+    [Header("UI элементы")]
+    public TextMeshProUGUI nameText;            // Имя персонажа
+    public TextMeshProUGUI dialogueText;        // Реплика
+    public GameObject optionsContainer;         // Контейнер для кнопок
+    public GameObject optionButtonPrefab;       // Префаб кнопки выбора
+
+    [Header("Изображения")]
+    public Image characterImage;                // Спрайт персонажа
+    public Image backgroundImage;              // 🆕 Спрайт заднего фона
 
     private DialogueNode currentNode;
-    private int dialogueIndex = 0;             // Для показа реплик по очереди
+    private int dialogueIndex = 0;
 
     void Start()
     {
-        LoadNode("start"); // Начало истории
+        LoadNode("start"); // Начало диалога
     }
 
     void LoadNode(string nodeId)
@@ -48,6 +53,20 @@ public class DialogueManager : MonoBehaviour
         string json = File.ReadAllText(path);
         currentNode = JsonUtility.FromJson<DialogueNode>(json);
         dialogueIndex = 0;
+
+        // 🆕 Меняем фон, если указано
+        if (backgroundImage != null && !string.IsNullOrEmpty(currentNode.background))
+        {
+            Sprite bgSprite = Resources.Load<Sprite>($"Backgrounds/{currentNode.background}");
+            if (bgSprite != null)
+            {
+                backgroundImage.sprite = bgSprite;
+            }
+            else
+            {
+                Debug.LogWarning($"Фон '{currentNode.background}' не найден в Resources/Backgrounds/");
+            }
+        }
 
         ShowNextLine();
         ClearOptions();
@@ -62,13 +81,18 @@ public class DialogueManager : MonoBehaviour
             nameText.text = line.name;
             dialogueText.text = line.text;
 
-            // Меняем спрайт в зависимости от эмоции
-            if(characterImage != null && !string.IsNullOrEmpty(line.emotion))
+            // 🆕 Смена эмоции персонажа
+            if (characterImage != null && !string.IsNullOrEmpty(line.emotion))
             {
-                // Загружаем спрайт из Resources/Characters/имя_персонажа/эмоция
                 Sprite sprite = Resources.Load<Sprite>($"Characters/{line.name}/{line.emotion}");
-                if(sprite != null)
+                if (sprite != null)
+                {
                     characterImage.sprite = sprite;
+                }
+                else
+                {
+                    Debug.LogWarning($"Спрайт эмоции '{line.emotion}' не найден для {line.name} в Resources/Characters/{line.name}/");
+                }
             }
 
             dialogueIndex++;
@@ -89,7 +113,7 @@ public class DialogueManager : MonoBehaviour
     {
         ClearOptions();
 
-        if (currentNode.options.Length == 0)
+        if (currentNode.options == null || currentNode.options.Length == 0)
         {
             // Конец узла
             nameText.text = "";

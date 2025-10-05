@@ -7,25 +7,25 @@ using UnityEngine.UI;
 [System.Serializable]
 public class DialogueLine
 {
-    public string name;      
-    public string text;      
-    public string emotion;   
+    public string name;
+    public string text;
+    public string emotion;
 }
 
 [System.Serializable]
 public class DialogueOption
 {
-    public string text;       
-    public string nextNode;   
+    public string text;
+    public string nextNode;
 }
 
 [System.Serializable]
 public class DialogueNode
 {
-    public string id;                  
-    public string background;          
-    public DialogueLine[] dialogue;    
-    public DialogueOption[] options;   
+    public string id;
+    public string background;
+    public DialogueLine[] dialogue;
+    public DialogueOption[] options;
 }
 
 public class DialogueManager : MonoBehaviour
@@ -37,17 +37,27 @@ public class DialogueManager : MonoBehaviour
     public GameObject optionButtonPrefab;
 
     [Header("Изображения персонажей")]
-    public Image toothFairyImage;       
-    public Image noahImage;             
-    public Image backgroundImage;       
+    public Image toothFairyImage;
+    public Image noahImage;
+    public Image backgroundImage;
 
     [Header("Анимация панели")]
-    public CanvasGroup dialoguePanel;   
-    public float fadeDelay = 0.5f;      
-    public float fadeDuration = 1f;     
+    public CanvasGroup dialoguePanel;
+    public float fadeDelay = 0.5f;
+    public float fadeDuration = 1f;
+
+    [Header("Меню паузы")]
+    public GameObject pauseMenu;
+
+    [Header("Эффект печати")]
+    public float typingSpeed = 0.03f; // скорость печати
 
     private DialogueNode currentNode;
     private int dialogueIndex = 0;
+
+    private Coroutine typingCoroutine;
+    private bool isTyping = false;
+    private bool skipTyping = false;
 
     void Start()
     {
@@ -55,6 +65,34 @@ public class DialogueManager : MonoBehaviour
             dialoguePanel.alpha = 0;
 
         LoadNode("start");
+    }
+
+    void Update()
+    {
+        // 📌 ESC — меню паузы
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            TogglePauseMenu();
+        }
+
+        // 📌 Space или ЛКМ — пропуск текста или переход к следующему
+        if (isTyping && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
+        {
+            skipTyping = true;
+        }
+        else if (!isTyping && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
+        {
+            OnNextButton();
+        }
+    }
+
+    void TogglePauseMenu()
+    {
+        if (pauseMenu == null) return;
+
+        bool isActive = pauseMenu.activeSelf;
+        pauseMenu.SetActive(!isActive);
+        Time.timeScale = isActive ? 1f : 0f;
     }
 
     IEnumerator FadeDialoguePanel(float from, float to)
@@ -93,7 +131,7 @@ public class DialogueManager : MonoBehaviour
         // ✨ Перезапуск анимации панели
         if (dialoguePanel != null)
         {
-            StopAllCoroutines(); // 💡 чтобы не наслаивались
+            StopAllCoroutines();
             StartCoroutine(FadeDialoguePanel(0f, 1f));
         }
 
@@ -108,15 +146,40 @@ public class DialogueManager : MonoBehaviour
             DialogueLine line = currentNode.dialogue[dialogueIndex];
 
             nameText.text = line.name;
-            dialogueText.text = line.text;
-
-            UpdateCharacterSprite(line.name, line.emotion);
             dialogueIndex++;
+
+            // 🛠 если предыдущая печать не закончена — останавливаем её
+            if (typingCoroutine != null)
+                StopCoroutine(typingCoroutine);
+
+            typingCoroutine = StartCoroutine(TypeText(line.text));
+            UpdateCharacterSprite(line.name, line.emotion);
         }
         else
         {
             ShowOptions();
         }
+    }
+
+    IEnumerator TypeText(string fullText)
+    {
+        isTyping = true;
+        skipTyping = false;
+        dialogueText.text = "";
+
+        foreach (char letter in fullText)
+        {
+            if (skipTyping)
+            {
+                dialogueText.text = fullText;
+                break;
+            }
+
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        isTyping = false;
     }
 
     void UpdateCharacterSprite(string characterName, string emotion)
@@ -183,3 +246,4 @@ public class DialogueManager : MonoBehaviour
         ShowNextLine();
     }
 }
+

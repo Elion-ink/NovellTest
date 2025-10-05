@@ -1,0 +1,17 @@
+{
+  "id": "computer_scene",
+  "background": "NoahBedroom2",
+  "dialogue": [
+    {
+      "name": "Ноа",
+      "text": "Я сажусь за компьютер…",
+      "emotion": "neutral"
+    }
+  ],
+  "options": [
+    {
+      "text": ".!?",
+      "nextNode": "reaction_on_fairy"
+    }
+  ]
+}

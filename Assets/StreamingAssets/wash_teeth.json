@@ -1,0 +1,22 @@
+{
+  "id": "wash_teeth",
+  "background": "bath",
+  "dialogue": [
+    {
+      "name": "Ноа",
+      "text": "Вот он я… и этот чёртов зуб всё ещё на месте.",
+      "emotion": "serious"
+    },
+    {
+      "name": "Ноа",
+      "text": "Если я его почищу, может, она отстанет? Или наоборот… придёт быстрее.",
+      "emotion": "worried"
+    }
+  ],
+  "options": [
+    {
+      "text": "Пойти в комнату",
+      "nextNode": "tooth_cleaned"
+    }
+  ]
+}

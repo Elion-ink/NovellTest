@@ -1,0 +1,22 @@
+{
+  "id": "tooth_cleaned",
+  "background": "hallway",
+  "dialogue": [
+    {
+      "name": "Ноа",
+      "text": "Ну… вроде всё. Зубы чистые. Может, теперь она отстанет.",
+      "emotion": "neutral"
+    },
+    {
+      "name": "Ноа",
+      "text": "Пойду обратно в комнату. Там хотя бы спокойнее…",
+      "emotion": "tired"
+    }
+  ],
+  "options": [
+    {
+      "text": "Вернуться в комнату",
+      "nextNode": "room_after_wash"
+    }
+  ]
+}

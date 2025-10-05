@@ -29,8 +29,8 @@
   ],
   "options": [
     {
-      "text": "Пойти в комнату Ноа",
-      "nextNode": "noah_room"
+      "text": "Пойти помыть зубы",
+      "nextNode": "bathroom"
     }
   ]
 }

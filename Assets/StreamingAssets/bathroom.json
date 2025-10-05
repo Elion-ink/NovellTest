@@ -1,0 +1,17 @@
+{
+  "id": "bathroom",
+  "background": "bathroom",
+  "dialogue": [
+    {
+      "name": "Ноа",
+      "text": "...",
+      "emotion": "neutral"
+    }
+  ],
+  "options": [
+    {
+      "text": "Посмотреть в зеркало",
+      "nextNode": "wash_teeth"
+    }
+  ]
+}

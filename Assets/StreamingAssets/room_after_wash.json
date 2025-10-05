@@ -1,0 +1,21 @@
+{
+  "id": "room_after_bathroom",
+  "background": "NoahBedroom",
+  "dialogue": [
+    {
+      "name": "Ноа",
+      "text": "Я снова здесь… Надеюсь, это всё наконец-то закончится.",
+      "emotion": "worried"
+    }
+  ],
+  "options": [
+    {
+      "text": "Сесть за компьютер",
+      "nextNode": "computer_scene"
+    },
+    {
+      "text": "Лечь спать",
+      "nextNode": "sleep_scene"
+    }
+  ]
+}

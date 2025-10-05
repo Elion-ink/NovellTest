@@ -1,0 +1,17 @@
+{
+  "id": "sleep_scene",
+  "background": "NoahBedroom2",
+  "dialogue": [
+    {
+      "name": "Ноа",
+      "text": "Я ложусь спать…",
+      "emotion": "tired"
+    }
+  ],
+  "options": [
+    {
+      "text": ".!?",
+      "nextNode": "reaction_on_fairy"
+    }
+  ]
+}

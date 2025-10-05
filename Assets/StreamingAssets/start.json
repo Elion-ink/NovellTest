@@ -1,5 +1,6 @@
 {
   "id": "start",
+  "background": "kitchen",
   "dialogue": [
     {
       "name": "Зубная Фея",
@@ -34,3 +35,4 @@
     }
   ]
 }
+

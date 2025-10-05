@@ -22,7 +22,7 @@ public class DialogueOption
 public class DialogueNode
 {
     public string id;                  // ID узла
-    public string background;          // Фон сцены (новое поле)
+    public string background;          // Фон сцены
     public DialogueLine[] dialogue;    // Реплики
     public DialogueOption[] options;   // Варианты выбора
 }
@@ -30,21 +30,22 @@ public class DialogueNode
 public class DialogueManager : MonoBehaviour
 {
     [Header("UI элементы")]
-    public TextMeshProUGUI nameText;            // Имя персонажа
-    public TextMeshProUGUI dialogueText;        // Реплика
-    public GameObject optionsContainer;         // Контейнер для кнопок
-    public GameObject optionButtonPrefab;       // Префаб кнопки выбора
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI dialogueText;
+    public GameObject optionsContainer;
+    public GameObject optionButtonPrefab;
 
-    [Header("Изображения")]
-    public Image characterImage;                // Спрайт персонажа
-    public Image backgroundImage;              // 🆕 Спрайт заднего фона
+    [Header("Изображения персонажей")]
+    public Image toothFairyImage;       // 🧚‍♂️ Зубная фея
+    public Image noahImage;             // 👦 Ноа
+    public Image backgroundImage;       // 🖼 Фон сцены
 
     private DialogueNode currentNode;
     private int dialogueIndex = 0;
 
     void Start()
     {
-        LoadNode("start"); // Начало диалога
+        LoadNode("start");
     }
 
     void LoadNode(string nodeId)
@@ -54,7 +55,7 @@ public class DialogueManager : MonoBehaviour
         currentNode = JsonUtility.FromJson<DialogueNode>(json);
         dialogueIndex = 0;
 
-        // 🆕 Меняем фон, если указано
+        // 🖼 Смена фона
         if (backgroundImage != null && !string.IsNullOrEmpty(currentNode.background))
         {
             Sprite bgSprite = Resources.Load<Sprite>($"Backgrounds/{currentNode.background}");
@@ -81,25 +82,54 @@ public class DialogueManager : MonoBehaviour
             nameText.text = line.name;
             dialogueText.text = line.text;
 
-            // 🆕 Смена эмоции персонажа
-            if (characterImage != null && !string.IsNullOrEmpty(line.emotion))
-            {
-                Sprite sprite = Resources.Load<Sprite>($"Characters/{line.name}/{line.emotion}");
-                if (sprite != null)
-                {
-                    characterImage.sprite = sprite;
-                }
-                else
-                {
-                    Debug.LogWarning($"Спрайт эмоции '{line.emotion}' не найден для {line.name} в Resources/Characters/{line.name}/");
-                }
-            }
+            // 🧠 Показать правильного персонажа и сменить эмоцию
+            UpdateCharacterSprite(line.name, line.emotion);
 
             dialogueIndex++;
         }
         else
         {
             ShowOptions();
+        }
+    }
+
+    void UpdateCharacterSprite(string characterName, string emotion)
+    {
+        // Скрываем обоих, а потом показываем нужного
+        if (toothFairyImage != null) toothFairyImage.enabled = false;
+        if (noahImage != null) noahImage.enabled = false;
+
+        if (characterName == "Зубная Фея" && toothFairyImage != null)
+        {
+            toothFairyImage.enabled = true;
+            if (!string.IsNullOrEmpty(emotion))
+            {
+                Sprite sprite = Resources.Load<Sprite>($"Characters/ToothFairy/{emotion}");
+                if (sprite != null)
+                {
+                    toothFairyImage.sprite = sprite;
+                }
+                else
+                {
+                    Debug.LogWarning($"Не найден спрайт эмоции '{emotion}' для Зубной Феи в Resources/Characters/ToothFairy/");
+                }
+            }
+        }
+        else if (characterName == "Ноа" && noahImage != null)
+        {
+            noahImage.enabled = true;
+            if (!string.IsNullOrEmpty(emotion))
+            {
+                Sprite sprite = Resources.Load<Sprite>($"Characters/Noah/{emotion}");
+                if (sprite != null)
+                {
+                    noahImage.sprite = sprite;
+                }
+                else
+                {
+                    Debug.LogWarning($"Не найден спрайт эмоции '{emotion}' для Ноа в Resources/Characters/Noah/");
+                }
+            }
         }
     }
 
@@ -115,7 +145,6 @@ public class DialogueManager : MonoBehaviour
 
         if (currentNode.options == null || currentNode.options.Length == 0)
         {
-            // Конец узла
             nameText.text = "";
             dialogueText.text += "\n\n[Конец]";
             return;
@@ -132,7 +161,6 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // Для кнопки "Дальше"
     public void OnNextButton()
     {
         ShowNextLine();

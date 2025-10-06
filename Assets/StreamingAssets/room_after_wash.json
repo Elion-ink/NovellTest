@@ -1,21 +1,11 @@
 {
-  "id": "room_after_wash",
+  "id": "room_after_bathroom",
   "background": "NoahBedroom",
   "dialogue": [
     {
       "name": "Ноа",
-      "text": "А что теперь-то?",
-      "emotion": "neutral"
-    },
-    {
-      "name": "Ноа",
-      "text": "Может, в ноут поиграть?.. Но завтра же школа…",
-      "emotion": "thinking"
-    },
-    {
-      "name": "Ноа",
-      "text": "Да и я устал за сегодня… можно сразу в постель лечь.",
-      "emotion": "tired"
+      "text": "Я снова здесь… Надеюсь, это всё наконец-то закончится.",
+      "emotion": "worried"
     }
   ],
   "options": [
@@ -29,4 +19,3 @@
     }
   ]
 }
-

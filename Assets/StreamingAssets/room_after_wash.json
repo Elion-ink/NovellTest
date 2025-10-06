@@ -3,30 +3,29 @@
   "background": "NoahBedroom",
   "dialogue": [
     {
-      "name": "Ноа",
-      "text": "А что теперь-то?",
+      "name": "Noah",
+      "text": "What now?",
       "emotion": "kalm"
     },
     {
-      "name": "Ноа",
-      "text": "Может, в ноут поиграть?.. Но завтра же школа…",
+      "name": "Noah",
+      "text": "Maybe I could play on my laptop… but there’s school tomorrow…",
       "emotion": "smile"
     },
     {
-      "name": "Ноа",
-      "text": "Да и я устал за сегодня… можно сразу в постель лечь.",
+      "name": "Noah",
+      "text": "And I’m pretty tired after today… maybe I should just go straight to bed.",
       "emotion": "insecure"
     }
   ],
   "options": [
     {
-      "text": "Сесть за компьютер",
+      "text": "Sit at the computer",
       "nextNode": "computer_scene"
     },
     {
-      "text": "Лечь спать",
+      "text": "Go to sleep",
       "nextNode": "sleep_scene"
     }
   ]
 }
-

@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   narratorText: {fileID: 1037950375}
-  delayBeforeNextScene: 5
+  delayBeforeNextScene: 7
 --- !u!4 &851699810
 Transform:
   m_ObjectHideFlags: 0

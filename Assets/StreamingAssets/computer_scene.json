@@ -4,34 +4,33 @@
   "dialogue": [
     {
       "name": "...",
-      "text": "Да ладно, немного поиграю, все равно еще есть время, перед тем как лечь спать"
+      "text": "Oh well, I'll play a little, there's still time before I go to bed."
     },
     {
       "name": "...",
-      "text": "Открыв свой ноутбук я решил поиграть в игру, которую недавно скачал"
+      "text": "I opened my laptop and decided to play a game I’d recently downloaded."
     },
     {
       "name": "...",
-      "text": "Как же она там называлась? игра… А она же так и называлась “Игра?!” Её же делали “ЭкоКвас” мои любимые разработчики!"
+      "text": "What was it called again? The game… Oh right, it *was* called “Game?!” It’s made by EcoKvas — my favorite developers!"
     },
     {
       "name": "...",
-      "text": "Почему мы играем за перекати поле?"
+      "text": "Wait, why are we playing as a tumbleweed?"
     },
     {
       "name": "...",
-      "text": "я сейчас собрал “сасиски”?"
+      "text": "Did I just collect… “sausege”?"
     },
     {
       "name": "...",
-      "text": "Даже я знаю что пишутся сосиски…"
+      "text": "Even I know it’s spelled *sausages*…"
     }
   ],
   "options": [
     {
       "text": ".!?",
-      "nextNode": "reaction_on_fairy"
+      "nextNode": "meet_tooth_fairy"
     }
   ]
 }
-

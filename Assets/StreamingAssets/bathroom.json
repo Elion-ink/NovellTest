@@ -3,34 +3,34 @@
   "background": "bathroom",
   "dialogue": [
     {
-      "name": "Ноа",
-      "text": "Хммм… Интересно, а Фея точно придёт? И вообще, почему именно когда мы спим…?",
+      "name": "Noah",
+      "text": "Hmmm… I wonder, will the fairy really come? And why does it have to be when we’re asleep…?",
       "emotion": "insecure"
     },
     {
-      "name": "Ноа",
-      "text": "Почему она не может лично просто взять зуб в руки?",
+      "name": "Noah",
+      "text": "Why can’t she just come and take the tooth herself?",
       "emotion": "surprised"
     },
     {
-      "name": "Ноа",
-      "text": "Мама всегда мне не говорит.",
+      "name": "Noah",
+      "text": "Mom never tells me anything.",
       "emotion": "confused"
     },
     {
-      "name": "Ноа",
-      "text": "То феям нельзя лично появляться, то ещё что-то…",
+      "name": "Noah",
+      "text": "It’s either fairies can’t show up in person, or something else again…",
       "emotion": "insecure"
     },
     {
-      "name": "Ноа",
+      "name": "Noah",
       "text": "...",
       "emotion": "kalm"
     }
   ],
   "options": [
     {
-      "text": "Почистить зубы",
+      "text": "Brush teeth",
       "nextNode": "wash_teeth"
     }
   ]

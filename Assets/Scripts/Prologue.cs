@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Prologue : MonoBehaviour
 {
     public TextMeshProUGUI narratorText;
-    public float delayBeforeNextScene = 5f; // через сколько секунд перейти
+    public float delayBeforeNextScene = 5f;
 
     void Start()
     {
@@ -15,10 +15,10 @@ public class Prologue : MonoBehaviour
 
     IEnumerator ShowPrologue()
     {
-        narratorText.text = "Вы верите в сказки?";
+        narratorText.text = "Do you believe in fairy tales?";
         yield return new WaitForSeconds(2.5f);
-        narratorText.text = "Чистите зубы каждый день?";
+        narratorText.text = "Do you brush your teeth every day?";
         yield return new WaitForSeconds(delayBeforeNextScene);
-        SceneManager.LoadScene("MainScene"); // <- сюда твоя основная сцена
+        SceneManager.LoadScene("MainScene");
     }
 }

@@ -3,89 +3,89 @@
   "background": "kitchenwithdish",
   "dialogue": [
     {
-      "name": "Мама",
-      "text": "Ноа, сынок, ты всё приготовил заранее?",
+      "name": "Mom",
+      "text": "Noah, son, did you prepare everything for tomorrow?",
       "emotion": "silhouette"
     },
     {
-      "name": "Ноа",
-      "text": "Да, мам, я всё сделал.",
+      "name": "Noah",
+      "text": "Yeah, Mom, I did everything.",
       "emotion": "smile"
     },
     {
-      "name": "Мама",
-      "text": "Домашнее задание сделал? А одежду повесил?",
+      "name": "Mom",
+      "text": "Did you finish your homework? And did you hang up your clothes?",
       "emotion": "silhouette"
     },
     {
-      "name": "Ноа",
-      "text": "Да, мам, всё есть, не переживай.",
+      "name": "Noah",
+      "text": "Yeah, Mom, everything’s done, don’t worry.",
       "emotion": "smile"
     },
     {
       "name": "...",
-      "text": "Я настолько жадно надкусил яблоко, что мою челюсть чуть не свело.",
+      "text": "I bit into the apple so eagerly that my jaw almost cramped.",
       "emotion": "insecure"
     },
     {
-      "name": "Ноа",
-      "text": "Ай!!!",
+      "name": "Noah",
+      "text": "Ow!!!",
       "emotion": "scared"
     },
     {
       "name": "...",
-      "text": "Я аккуратно вытащил яблоко из рта и увидел застрявший в нём зуб, что шатался всю прошедшую неделю.",
+      "text": "I carefully pulled the apple out of my mouth and saw a tooth stuck in it — the one that had been wiggling all week.",
       "emotion": "surprised"
     },
     {
-      "name": "Ноа",
-      "text": "МАА!! У меня фуб вупал!",
+      "name": "Noah",
+      "text": "MOOOM!! My toof fell out!",
       "emotion": "surprised"
     },
     {
-      "name": "Мама",
-      "text": "Оо, так это хорошо, спрячь его под подушку, и к утру Зубная фея положит вместо него денюжку!",
+      "name": "Mom",
+      "text": "Oh, that’s great! Put it under your pillow, and by morning the Tooth Fairy will leave some money for you!",
       "emotion": "silhouette"
     },
     {
-      "name": "Ноа",
-      "text": "Ма, это точно не Фея! Мне Майк сказал, что ему мама подложила…",
+      "name": "Noah",
+      "text": "Mom, that’s not a fairy! Mike told me his mom put it there...",
       "emotion": "confused"
     },
     {
-      "name": "Ноа",
-      "text": "…теперь к нему фея не приходит…",
+      "name": "Noah",
+      "text": "...and now the fairy doesn’t visit him anymore...",
       "emotion": "insecure"
     },
     {
-      "name": "Мама",
-      "text": "Всё просто, он перестал верить в неё, поэтому она и не приходит.",
+      "name": "Mom",
+      "text": "It’s simple — he stopped believing in her, that’s why she doesn’t come.",
       "emotion": "silhouette"
     },
     {
-      "name": "Мама",
-      "text": "Ноа, ты доел?",
+      "name": "Mom",
+      "text": "Noah, are you done eating?",
       "emotion": "silhouette"
     },
     {
-      "name": "Мама",
-      "text": "Если да, то иди чистить зубы, а после — в комнату, скоро спать.",
+      "name": "Mom",
+      "text": "If yes, then go brush your teeth and head to your room — it’s almost bedtime.",
       "emotion": "silhouette"
     },
     {
-      "name": "Ноа",
-      "text": "Хорошооо. Спасибо за еду, люблю тебя!",
+      "name": "Noah",
+      "text": "Okaaaay. Thanks for the food, love you!",
       "emotion": "smile"
     },
     {
-      "name": "Мама",
-      "text": "И я тебя, сыночек.",
+      "name": "Mom",
+      "text": "I love you too, sweetheart.",
       "emotion": "silhouette"
     }
   ],
   "options": [
     {
-      "text": "Пойти в ванну",
+      "text": "Go to the bathroom",
       "nextNode": "bathroom"
     }
   ]

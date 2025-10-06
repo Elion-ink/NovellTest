@@ -4,38 +4,38 @@
   "dialogue": [
     {
       "name": "...",
-      "text": "Эхххх… так лень чистить зубы…",
+      "text": "Ughhh… I’m so lazy to brush my teeth…"
     },
     {
       "name": "...",
-      "text": "Я взял зубную щётку и приступил к чистке зубов."
+      "text": "I grabbed my toothbrush and started brushing."
     },
     {
       "name": "...",
-      "text": "Закончив, я широко открыл рот и решил посмотреть на свои зубы."
+      "text": "When I finished, I opened my mouth wide and decided to check my teeth."
     },
     {
-      "name": "Ноа",
-      "text": "Чего?!",
+      "name": "Noah",
+      "text": "What?!",
       "emotion": "scared"
     },
     {
       "name": "...",
-      "text": "Почему зубы такие же жёлтые?",
+      "text": "Why are they still so yellow?"
     },
     {
       "name": "...",
-      "text": "Да сколько можно их чистить… ничего же не меняется почти…",
+      "text": "No matter how much I brush them… nothing really changes…"
     },
     {
-      "name": "Ноа",
-      "text": "Ладно… просто пойду в комнату.",
+      "name": "Noah",
+      "text": "Whatever… I’ll just go to my room.",
       "emotion": "kalm"
     }
   ],
   "options": [
     {
-      "text": "Пойти в комнату",
+      "text": "Go to the room",
       "nextNode": "room_after_wash"
     }
   ]

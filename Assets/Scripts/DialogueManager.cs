@@ -217,6 +217,7 @@ public class DialogueManager : MonoBehaviour
     // 🔹 Исправленный метод ShowOptions с локальной переменной для правильного замыкания
     void ShowOptions()
     {
+        //optionsContainer.transform.GetComponent<VerticalLayoutGroup>().enabled = true;
         ClearOptions();
 
         if (currentNode.options == null || currentNode.options.Length == 0)
@@ -233,12 +234,15 @@ public class DialogueManager : MonoBehaviour
             btnText.text = option.text;
 
             Button btn = btnObj.GetComponent<Button>();
-            
+
             // Локальная копия переменной для правильного замыкания
             DialogueOption capturedOption = option;
             btn.onClick.AddListener(() => LoadNode(capturedOption.nextNode));
         }
+        //optionsContainer.transform.GetComponent<VerticalLayoutGroup>().enabled = false;
     }
+
+
 
     public void OnNextButton()
     {

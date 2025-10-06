@@ -9,7 +9,6 @@
     },
     {
       "name": "Ноа",
-<<<<<<< HEAD
       "text": "Да, мам, я всё сделал.",
       "emotion": "smile"
     },
@@ -32,9 +31,6 @@
       "name": "Ноа",
       "text": "Ай!!!",
       "emotion": "scared"
-=======
-      "text": "П-почему ты такой страшный?.. Феи должны быть добрыми!"
->>>>>>> parent of 743e8f5 (Last commit)
     },
     {
       "name": "Ноа",
@@ -43,7 +39,6 @@
     },
     {
       "name": "Ноа",
-<<<<<<< HEAD
       "text": "МАА!! У меня фуб вупал!",
       "emotion": "shocked"
     },
@@ -86,28 +81,12 @@
       "name": "Мама",
       "text": "И я тебя, сыночек.",
       "emotion": "silhouette"
-=======
-      "text": "Нет! Это мой зуб… он ещё не выпал!"
-    },
-    {
-      "name": "Зубная Фея",
-      "text": "О, значит нам предстоит *весёлый вечер*..."
->>>>>>> parent of 743e8f5 (Last commit)
     }
   ],
   "options": [
     {
-<<<<<<< HEAD
       "text": "Пойти в ванну",
       "nextNode": "bathroom"
-=======
-      "text": "Отдать зуб сам",
-      "nextNode": "give_tooth"
-    },
-    {
-      "text": "Отказаться и убежать",
-      "nextNode": "run_away"
->>>>>>> parent of 743e8f5 (Last commit)
     }
   ]
 }

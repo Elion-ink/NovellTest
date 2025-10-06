@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0a86d1ed03f58eb4ab52a40c09804d02
+=======
+guid: 49535f503883ee14da9f0980c3b9edeb
+>>>>>>> parent of 8b8ce54 (Go)
 PrefabImporter:
   externalObjects: {}
   userData: 

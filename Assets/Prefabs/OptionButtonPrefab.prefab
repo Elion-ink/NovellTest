@@ -1,7 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &6564934612067166558
+=======
+--- !u!1 &3392528514932649461
+>>>>>>> parent of 8b8ce54 (Go)
 =======
 --- !u!1 &3392528514932649461
 >>>>>>> parent of 8b8ce54 (Go)
@@ -13,10 +17,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 7429100823779039063}
   - component: {fileID: 1214383071336998244}
   - component: {fileID: 630857976940985436}
 =======
+=======
+>>>>>>> parent of 8b8ce54 (Go)
   - component: {fileID: 3114103063349670196}
   - component: {fileID: 3315425693121076266}
   - component: {fileID: 769602922859683255}
@@ -168,6 +175,9 @@ GameObject:
   - component: {fileID: 1489425520130649657}
   - component: {fileID: 6749448350038617914}
   - component: {fileID: 7854880729794324439}
+<<<<<<< HEAD
+>>>>>>> parent of 8b8ce54 (Go)
+=======
 >>>>>>> parent of 8b8ce54 (Go)
   m_Layer: 5
   m_Name: Text (TMP)
@@ -177,7 +187,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &7429100823779039063
+=======
+--- !u!224 &1489425520130649657
+>>>>>>> parent of 8b8ce54 (Go)
 =======
 --- !u!224 &1489425520130649657
 >>>>>>> parent of 8b8ce54 (Go)
@@ -187,7 +201,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 6564934612067166558}
+=======
+  m_GameObject: {fileID: 6978167087033460868}
+>>>>>>> parent of 8b8ce54 (Go)
 =======
   m_GameObject: {fileID: 6978167087033460868}
 >>>>>>> parent of 8b8ce54 (Go)
@@ -196,6 +214,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 2313191177977648763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -206,6 +225,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1214383071336998244
 =======
+=======
+>>>>>>> parent of 8b8ce54 (Go)
   m_Father: {fileID: 3114103063349670196}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -214,6 +235,9 @@ RectTransform:
   m_SizeDelta: {x: 1049.9, y: 52.781}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6749448350038617914
+<<<<<<< HEAD
+>>>>>>> parent of 8b8ce54 (Go)
+=======
 >>>>>>> parent of 8b8ce54 (Go)
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -221,9 +245,15 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 6564934612067166558}
   m_CullTransparentMesh: 1
 --- !u!114 &630857976940985436
+=======
+  m_GameObject: {fileID: 6978167087033460868}
+  m_CullTransparentMesh: 1
+--- !u!114 &7854880729794324439
+>>>>>>> parent of 8b8ce54 (Go)
 =======
   m_GameObject: {fileID: 6978167087033460868}
   m_CullTransparentMesh: 1
@@ -235,7 +265,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 6564934612067166558}
+=======
+  m_GameObject: {fileID: 6978167087033460868}
+>>>>>>> parent of 8b8ce54 (Go)
 =======
   m_GameObject: {fileID: 6978167087033460868}
 >>>>>>> parent of 8b8ce54 (Go)
@@ -253,7 +287,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_text: Option
+=======
+  m_text: New Text
+>>>>>>> parent of 8b8ce54 (Go)
 =======
   m_text: New Text
 >>>>>>> parent of 8b8ce54 (Go)
@@ -321,12 +359,17 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
+<<<<<<< HEAD
   m_margin: {x: 0, y: 0, z: 0, w: 9.720285}
+=======
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> parent of 8b8ce54 (Go)
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &8337593034106354603
 GameObject:
@@ -449,5 +492,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+=======
+>>>>>>> parent of 8b8ce54 (Go)
 =======
 >>>>>>> parent of 8b8ce54 (Go)

@@ -1353,8 +1353,13 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -7.1235, y: 403.90002}
   m_SizeDelta: {x: 1048.7557, y: 122.1299}
+=======
+  m_AnchoredPosition: {x: -6.4888988, y: 403.90002}
+  m_SizeDelta: {x: 1050.025, y: 122.13}
+>>>>>>> parent of 8b8ce54 (Go)
 =======
   m_AnchoredPosition: {x: -6.4888988, y: 403.90002}
   m_SizeDelta: {x: 1050.025, y: 122.13}
@@ -2414,6 +2419,9 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3114103063349670196, guid: 49535f503883ee14da9f0980c3b9edeb, type: 3}
   m_PrefabInstance: {fileID: 8375637554839226783}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 8b8ce54 (Go)
+=======
 >>>>>>> parent of 8b8ce54 (Go)
 --- !u!1 &1895830186
 GameObject:
@@ -2703,8 +2711,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 2050386080}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &5677138380582284197
 =======
+=======
+>>>>>>> parent of 8b8ce54 (Go)
 --- !u!1001 &8375637554839226783
 >>>>>>> parent of 8b8ce54 (Go)
 PrefabInstance:
@@ -2714,6 +2725,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 707515426}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 2313191177977648763, guid: 0a86d1ed03f58eb4ab52a40c09804d02, type: 3}
       propertyPath: m_Pivot.x
@@ -2741,6 +2753,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2313191177977648763, guid: 0a86d1ed03f58eb4ab52a40c09804d02, type: 3}
 =======
+=======
+>>>>>>> parent of 8b8ce54 (Go)
     - target: {fileID: 1489425520130649657, guid: 49535f503883ee14da9f0980c3b9edeb, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2884,6 +2898,9 @@ SceneRoots:
   - {fileID: 1556534287}
   - {fileID: 132318522}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8b8ce54 (Go)
   - {fileID: 472806415}
 >>>>>>> parent of 8b8ce54 (Go)

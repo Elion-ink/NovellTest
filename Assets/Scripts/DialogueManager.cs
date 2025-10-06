@@ -34,6 +34,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public GameObject optionsContainer;
+    public Button[] optionsButtons;
     public GameObject optionButtonPrefab;
 
     [Header("Изображения персонажей")]
@@ -210,8 +211,11 @@ public class DialogueManager : MonoBehaviour
 
     void ClearOptions()
     {
-        foreach (Transform child in optionsContainer.transform)
-            Destroy(child.gameObject);
+        foreach (Button btn in optionsButtons)
+        {
+            btn.onClick.RemoveAllListeners();
+            btn.gameObject.SetActive(false);
+        }
     }
 
     // 🔹 Исправленный метод ShowOptions с локальной переменной для правильного замыкания
@@ -227,18 +231,18 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        foreach (var option in currentNode.options)
-        {
-            GameObject btnObj = Instantiate(optionButtonPrefab, optionsContainer.transform);
-            TextMeshProUGUI btnText = btnObj.GetComponentInChildren<TextMeshProUGUI>();
-            btnText.text = option.text;
+for(int i = 0; i < currentNode.options.Length; i++)
+{
+    //GameObject btnObj = Instantiate(optionButtonPrefab, optionsContainer.transform);
+    optionsButtons[i].gameObject.SetActive(true);
+    TextMeshProUGUI btnText = optionsButtons[i].GetComponentInChildren<TextMeshProUGUI>();
+    btnText.text = currentNode.options[i].text;
 
-            Button btn = btnObj.GetComponent<Button>();
+    //Button btn = optionsButtons[i];
 
-            // Локальная копия переменной для правильного замыкания
-            DialogueOption capturedOption = option;
-            btn.onClick.AddListener(() => LoadNode(capturedOption.nextNode));
-        }
+    DialogueOption capturedOption = currentNode.options[i];
+    optionsButtons[i].onClick.AddListener(() => LoadNode(capturedOption.nextNode));
+}
         //optionsContainer.transform.GetComponent<VerticalLayoutGroup>().enabled = false;
     }
 

@@ -1,0 +1,25 @@
+{
+  "id": "reaction_on_fairy",
+  "background": "NoahBedroomDark",
+  "dialogue": [
+    {
+      "name": "Фея",
+      "text": "А ты че не спишь, мелкий?",
+      "emotion": "angry"
+    },
+    {
+      "text": "Донесся неприятный, басистый голос, исходящий от массивного силуэта."
+    },
+    {
+      "name": "Ноа",
+      "text": "К-к-кто ты такой??",
+      "emotion": "scared"
+    }
+  ],
+  "options": [
+    {
+      "text": "Продолжить",
+      "nextNode": "fairy_reveal"
+    }
+  ]
+}

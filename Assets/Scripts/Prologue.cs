@@ -15,9 +15,9 @@ public class Prologue : MonoBehaviour
 
     IEnumerator ShowPrologue()
     {
-        narratorText.text = "…В начале всё было погружено во тьму.";
+        narratorText.text = "Вы верите в сказки?";
         yield return new WaitForSeconds(2.5f);
-        narratorText.text = "Но даже в глубине этой тьмы уже шевелилась история...";
+        narratorText.text = "Чистите зубы каждый день?";
         yield return new WaitForSeconds(delayBeforeNextScene);
         SceneManager.LoadScene("MainScene"); // <- сюда твоя основная сцена
     }

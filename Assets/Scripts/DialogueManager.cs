@@ -69,13 +69,11 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        // 📌 ESC — меню паузы
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePauseMenu();
         }
 
-        // 📌 Space или ЛКМ — пропуск текста или переход к следующему
         if (isTyping && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
         {
             skipTyping = true;
@@ -118,7 +116,6 @@ public class DialogueManager : MonoBehaviour
         currentNode = JsonUtility.FromJson<DialogueNode>(json);
         dialogueIndex = 0;
 
-        // 🖼 Смена фона
         if (backgroundImage != null && !string.IsNullOrEmpty(currentNode.background))
         {
             Sprite bgSprite = Resources.Load<Sprite>($"Backgrounds/{currentNode.background}");
@@ -128,7 +125,6 @@ public class DialogueManager : MonoBehaviour
                 Debug.LogWarning($"Фон '{currentNode.background}' не найден в Resources/Backgrounds/");
         }
 
-        // ✨ Перезапуск анимации панели
         if (dialoguePanel != null)
         {
             StopAllCoroutines();
@@ -148,7 +144,6 @@ public class DialogueManager : MonoBehaviour
             nameText.text = line.name;
             dialogueIndex++;
 
-            // 🛠 если предыдущая печать не закончена — останавливаем её
             if (typingCoroutine != null)
                 StopCoroutine(typingCoroutine);
 
@@ -219,6 +214,7 @@ public class DialogueManager : MonoBehaviour
             Destroy(child.gameObject);
     }
 
+    // 🔹 Исправленный метод ShowOptions с локальной переменной для правильного замыкания
     void ShowOptions()
     {
         ClearOptions();
@@ -237,7 +233,10 @@ public class DialogueManager : MonoBehaviour
             btnText.text = option.text;
 
             Button btn = btnObj.GetComponent<Button>();
-            btn.onClick.AddListener(() => LoadNode(option.nextNode));
+            
+            // Локальная копия переменной для правильного замыкания
+            DialogueOption capturedOption = option;
+            btn.onClick.AddListener(() => LoadNode(capturedOption.nextNode));
         }
     }
 
@@ -246,4 +245,3 @@ public class DialogueManager : MonoBehaviour
         ShowNextLine();
     }
 }
-

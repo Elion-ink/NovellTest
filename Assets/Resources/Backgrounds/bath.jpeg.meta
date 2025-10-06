@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Resources/Backgrounds/bath.jpeg.meta
 guid: bad071abd4074804fb588c00de6b1d09
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2749366524369292839
     second: 51AE76A6-D126-4741-AE1A-444619D3F262_0
+========
+guid: 79c035ca06203804a8dd80e6fc3a69e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1681046116035563626
+    second: "\u0430\u043A\u0442\u0435\u0440_0"
+>>>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/neutral.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Resources/Backgrounds/bath.jpeg.meta
       name: 51AE76A6-D126-4741-AE1A-444619D3F262_0
+========
+      name: "\u0430\u043A\u0442\u0435\u0440_0"
+>>>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/neutral.png.meta
       rect:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<<< HEAD:Assets/Resources/Backgrounds/bath.jpeg.meta
         width: 1920
         height: 1080
+========
+        width: 640
+        height: 640
+>>>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/neutral.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Resources/Backgrounds/bath.jpeg.meta
       spriteID: 72ec1628946b72620800000000000000
       internalID: 2749366524369292839
+========
+      spriteID: a6099553986445710800000000000000
+      internalID: 1681046116035563626
+>>>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/neutral.png.meta
       vertices: []
       indices: 
       edges: []
@@ -135,7 +158,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<<< HEAD:Assets/Resources/Backgrounds/bath.jpeg.meta
       51AE76A6-D126-4741-AE1A-444619D3F262_0: 2749366524369292839
+========
+      "\u0430\u043A\u0442\u0435\u0440_0": 1681046116035563626
+>>>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/neutral.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

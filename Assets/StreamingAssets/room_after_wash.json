@@ -5,17 +5,17 @@
     {
       "name": "Ноа",
       "text": "А что теперь-то?",
-      "emotion": "neutral"
+      "emotion": "kalm"
     },
     {
       "name": "Ноа",
       "text": "Может, в ноут поиграть?.. Но завтра же школа…",
-      "emotion": "thinking"
+      "emotion": "smile"
     },
     {
       "name": "Ноа",
       "text": "Да и я устал за сегодня… можно сразу в постель лечь.",
-      "emotion": "tired"
+      "emotion": "insecure"
     }
   ],
   "options": [

@@ -1,21 +1,21 @@
 {
   "id": "wash_teeth",
-  "background": "bath",
+  "background": "bathroom2",
   "dialogue": [
     {
       "name": "Ноа",
       "text": "Эхххх… так лень чистить зубы…",
-      "emotion": "tired"
+      "emotion": "insecure"
     },
     {
       "name": "Ноа",
       "text": "Я взял зубную щётку и приступил к чистке зубов.",
-      "emotion": "neutral"
+      "emotion": "kalm"
     },
     {
       "name": "Ноа",
       "text": "Закончив, я широко открыл рот и решил посмотреть на свои зубы.",
-      "emotion": "neutral"
+      "emotion": "kalm"
     },
     {
       "name": "Ноа",
@@ -30,18 +30,18 @@
     {
       "name": "Ноа",
       "text": "Да сколько можно их чистить… ничего же не меняется почти…",
-      "emotion": "annoyed"
+      "emotion": "confused"
     },
     {
       "name": "Ноа",
       "text": "Ладно… просто пойду в комнату.",
-      "emotion": "neutral"
+      "emotion": "kalm"
     }
   ],
   "options": [
     {
       "text": "Пойти в комнату",
-      "nextNode": "tooth_cleaned"
+      "nextNode": "room_after_wash"
     }
   ]
 }

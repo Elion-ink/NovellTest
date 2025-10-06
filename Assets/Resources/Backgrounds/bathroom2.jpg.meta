@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Resources/Characters/Noah/calm.png.meta
-guid: 94c854fb55b4c134d8f53dbd822bf5de
+guid: beb2c1169d0c19449896e32d55cd658a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6640200009942725435
-    second: "\u0441\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_0"
-=======
-guid: f9560ad8649e8a548860c5f77bba04b8
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -3008835166224908625
-    second: "\u0436\u0438\u0440\u043E\u0431\u0430\u0441 \u0441 \u0443\u0445\u043C\u044B\u043B\u043A\u043E\u0439_0"
->>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/calm.png.meta
+      213: -4077082507190597194
+    second: bathroom2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,53 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< HEAD:Assets/Resources/Characters/Noah/calm.png.meta
-      name: "\u0441\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_0"
+      name: bathroom2_0
       rect:
         serializedVersion: 2
-        x: 110
+        x: 0
         y: 0
-        width: 451
-        height: 604
-=======
-      name: "\u0436\u0438\u0440\u043E\u0431\u0430\u0441 \u0441 \u0443\u0445\u043C\u044B\u043B\u043A\u043E\u0439_0"
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 0
-        width: 952
-        height: 706
->>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/calm.png.meta
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,13 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD:Assets/Resources/Characters/Noah/calm.png.meta
-      spriteID: b337e2e4abab62c50800000000000000
-      internalID: 6640200009942725435
-=======
-      spriteID: faef5799b587e36d0800000000000000
-      internalID: -3008835166224908625
->>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/calm.png.meta
+      spriteID: 6b902fe9f0b4b67c0800000000000000
+      internalID: -4077082507190597194
       vertices: []
       indices: 
       edges: []
@@ -185,11 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< HEAD:Assets/Resources/Characters/Noah/calm.png.meta
-      "\u0441\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_0": 6640200009942725435
-=======
-      "\u0436\u0438\u0440\u043E\u0431\u0430\u0441 \u0441 \u0443\u0445\u043C\u044B\u043B\u043A\u043E\u0439_0": -3008835166224908625
->>>>>>> parent of 743e8f5 (Last commit):Assets/Resources/Characters/ToothFairy/calm.png.meta
+      bathroom2_0: -4077082507190597194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

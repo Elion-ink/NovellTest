@@ -30,7 +30,7 @@
   "options": [
     {
       "text": "Continue",
-      "nextNode": "fairy_reaction_scene_comp"
+      "nextNode": "real_fairy_warning_comp"
     }
   ]
 }

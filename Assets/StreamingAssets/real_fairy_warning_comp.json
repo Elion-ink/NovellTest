@@ -1,0 +1,28 @@
+{
+  "id": "real_fairy_warning_comp",
+  "background": "fairy_realm",
+  "dialogue": [
+    {
+      "name": "Real Fairy",
+      "text": "It's a pity I couldn't save this child.",
+      "emotion": "disappointed"
+    },
+    {
+      "name": "Real Fairy",
+      "text": "But he chose his own fate, and unfortunately, he can no longer help us.",
+      "emotion": "disappointed"
+    },
+    {
+      "name": "Real Fairy",
+      "text": "We must hurry to find other children and warn them of the danger.",
+      "emotion": "Belly"
+    }
+  ],
+  "options": [
+    {
+      "text": "The End",
+      "nextNode": "END"
+    }
+  ]
+}
+

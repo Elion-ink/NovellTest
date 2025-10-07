@@ -1,0 +1,92 @@
+{
+  "id": "start",
+  "background": "kitchenwithdish",
+  "dialogue": [
+    {
+      "name": "Mom",
+      "text": "Noah, son, did you prepare everything for tomorrow?",
+      "emotion": "silhouette"
+    },
+    {
+      "name": "Noah",
+      "text": "Yeah, Mom, I did everything.",
+      "emotion": "smile"
+    },
+    {
+      "name": "Mom",
+      "text": "Did you finish your homework? And did you hang up your clothes?",
+      "emotion": "silhouette"
+    },
+    {
+      "name": "Noah",
+      "text": "Yeah, Mom, everything’s done, don’t worry.",
+      "emotion": "smile"
+    },
+    {
+      "name": "...",
+      "text": "I bit into the apple so eagerly that my jaw almost cramped.",
+      "emotion": "insecure"
+    },
+    {
+      "name": "Noah",
+      "text": "Ow!!!",
+      "emotion": "scared"
+    },
+    {
+      "name": "...",
+      "text": "I carefully pulled the apple out of my mouth and saw a tooth stuck in it — the one that had been wiggling all week.",
+      "emotion": "surprised"
+    },
+    {
+      "name": "Noah",
+      "text": "MOOOM!! My toof fell out!",
+      "emotion": "surprised"
+    },
+    {
+      "name": "Mom",
+      "text": "Oh, that’s great! Put it under your pillow, and by morning the Tooth Fairy will leave some money for you!",
+      "emotion": "silhouette"
+    },
+    {
+      "name": "Noah",
+      "text": "Mom, that’s not a fairy! Mike told me his mom put it there...",
+      "emotion": "confused"
+    },
+    {
+      "name": "Noah",
+      "text": "...and now the fairy doesn’t visit him anymore...",
+      "emotion": "insecure"
+    },
+    {
+      "name": "Mom",
+      "text": "It’s simple — he stopped believing in her, that’s why she doesn’t come.",
+      "emotion": "silhouette"
+    },
+    {
+      "name": "Mom",
+      "text": "Noah, are you done eating?",
+      "emotion": "silhouette"
+    },
+    {
+      "name": "Mom",
+      "text": "If yes, then go brush your teeth and head to your room — it’s almost bedtime.",
+      "emotion": "silhouette"
+    },
+    {
+      "name": "Noah",
+      "text": "Okaaaay. Thanks for the food, love you!",
+      "emotion": "smile"
+    },
+    {
+      "name": "Mom",
+      "text": "I love you too, sweetheart.",
+      "emotion": "silhouette"
+    }
+  ],
+  "options": [
+    {
+      "text": "Go to the bathroom",
+      "nextNode": "bathroom"
+    }
+  ]
+}

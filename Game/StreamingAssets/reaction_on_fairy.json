@@ -1,0 +1,27 @@
+{
+    "id": "scare_on_fairy",
+    "background": "windowScare",
+    "dialogue": [
+      {
+        "name": "Tooth Fairy",
+        "text": "Why aren’t you sleeping, brat?",
+        "emotion": "angry"
+      },
+      {
+        "name": "...",
+        "text": "A deep, unpleasant voice rumbled from the massive silhouette by the window."
+      },
+      {
+        "name": "Noah",
+        "text": "W-w-who are you?!",
+        "emotion": "scared"
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue",
+        "nextNode": "fairy_reveal"
+      }
+    ]
+  }
+  

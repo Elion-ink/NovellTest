@@ -1,0 +1,56 @@
+{
+    "id": "breakfast",
+    "background": "kitchenMorning",
+    "dialogue": [
+      {
+        "text": "In the kitchen, there was a typical morning scene for our house. Mom was deftly maneuvering between the kitchen table and the stove, preparing everything for our breakfast."
+      },
+      {
+        "name": "Mom",
+        "text": "Finally, sleepyhead! Sit down and eat. The eggs are getting cold.",
+        "emotion": "smile"
+      },
+      {
+        "text": "I lazily sat down at the table, my gaze shifting to my father, who was calmly sipping his coffee and reading the morning news."
+      },
+      {
+        "text": "Although it always seemed to me that he only held the newspaper so that no one would bother him early in the morning."
+      },
+      {
+        "text": "While I was gathering my thoughts, Mom had already finished preparing breakfast and sat down at the table."
+      },
+      {
+        "name": "Mom",
+        "text": "You seem kind of... sluggish today, son. Were you up all night on your laptop again? How many times do I have to tell you, you need to sleep at night!",
+        "emotion": "disappointed"
+      },
+      {
+        "name": "Noah",
+        "text": "Mom, don't start, I did sleep...",
+        "emotion": "insecure"
+      },
+      {
+        "text": "Sleepily poking at my eggs with a fork, I mechanically shoved them into my mouth."
+      },
+      {
+        "text": "After a couple of minutes of gastronomic manipulation, nothing remained of the former eggs except for yolk smeared across the plate."
+      },
+      {
+        "name": "Mom",
+        "text": "Now that you've finished eating, hurry up and get ready for school, or you'll be late again.",
+        "emotion": "calm"
+      },
+      {
+        "name": "Dad",
+        "text": "That's right, listen to your mom, come on, soldier, march off to school.",
+        "emotion": "calm"
+      }
+    ],
+    "options": [
+      {
+        "text": "Go to school",
+        "nextNode": "school"
+      }
+    ]
+  }
+  

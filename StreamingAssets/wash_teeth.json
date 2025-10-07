@@ -1,0 +1,42 @@
+{
+  "id": "wash_teeth",
+  "background": "bathroom2",
+  "dialogue": [
+    {
+      "name": "...",
+      "text": "Ughhh… I’m so lazy to brush my teeth…"
+    },
+    {
+      "name": "...",
+      "text": "I grabbed my toothbrush and started brushing."
+    },
+    {
+      "name": "...",
+      "text": "When I finished, I opened my mouth wide and decided to check my teeth."
+    },
+    {
+      "name": "Noah",
+      "text": "What?!",
+      "emotion": "scared"
+    },
+    {
+      "name": "...",
+      "text": "Why are they still so yellow?"
+    },
+    {
+      "name": "...",
+      "text": "No matter how much I brush them… nothing really changes…"
+    },
+    {
+      "name": "Noah",
+      "text": "Whatever… I’ll just go to my room.",
+      "emotion": "kalm"
+    }
+  ],
+  "options": [
+    {
+      "text": "Go to the room",
+      "nextNode": "room_after_wash"
+    }
+  ]
+}

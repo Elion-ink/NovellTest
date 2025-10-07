@@ -1,0 +1,31 @@
+{
+  "id": "room_after_wash",
+  "background": "NoahBedroom",
+  "dialogue": [
+    {
+      "name": "Noah",
+      "text": "What now?",
+      "emotion": "kalm"
+    },
+    {
+      "name": "Noah",
+      "text": "Maybe I could play on my laptop… but there’s school tomorrow…",
+      "emotion": "smile"
+    },
+    {
+      "name": "Noah",
+      "text": "And I’m pretty tired after today… maybe I should just go straight to bed.",
+      "emotion": "insecure"
+    }
+  ],
+  "options": [
+    {
+      "text": "Sit at the computer",
+      "nextNode": "computer_scene"
+    },
+    {
+      "text": "Go to sleep",
+      "nextNode": "sleep_scene"
+    }
+  ]
+}

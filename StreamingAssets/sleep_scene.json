@@ -1,0 +1,75 @@
+{
+  "id": "sleep_scene",
+  "background": "NoahBedroom2",
+  "dialogue": [
+    {
+      "name": "...",
+      "text": "I lay down in the nice, cool bed… It felt so good that the window had been open all day."
+    },
+    {
+      "name": "...",
+      "text": "I slid my hand under the pillow and felt a pleasant chill."
+    },
+    {
+      "name": "...",
+      "text": "...Too bad the fairy will take the tooth, and I won’t be able to show it to Mike. He loves weird stuff, hahaha."
+    },
+    {
+      "name": "...",
+      "text": "I placed the tooth under the pillow and lay on my back, staring at the ceiling."
+    },
+    {
+      "name": "...",
+      "text": "My eyelids seemed to come alive and tried to close on their own, hugging each other…"
+    },
+    {
+      "name": "...",
+      "text": "*A strange sound of cracking wall echoed…*"
+    },
+    {
+      "name": "...",
+      "text": "What’s happening?.."
+    },
+    {
+      "name": "...",
+      "text": "I felt fear squeezing me, as if shrinking me smaller and smaller…"
+    },
+    {
+      "name": "...",
+      "text": "My imagination had already started creating strange shapes that frightened me, so I stared at the window, trying to find at least some calm in it."
+    },
+    {
+      "name": "...",
+      "text": "The moonlight stopped coming into the room…"
+    },
+    {
+      "name": "...",
+      "text": "Something strange and huge was trying to squeeze through my window."
+    },
+    {
+      "name": "Noah",
+      "text": "What’s going on??",
+      "emotion": "scared"
+    },
+    {
+      "name": "...",
+      "text": "— I said in a slightly trembling voice."
+    },
+    {
+      "name": "...",
+      "text": "Something massive and bubbling was getting closer to me… There were no footsteps, only the fluttering of wings like a hummingbird."
+    }
+  ],
+  "options": [
+    {
+      "text": ".!?",
+      "nextNode": "fairy_reveal"
+    }
+  ],
+  "options": [
+    {
+      "text": "Позвать родителей.",
+      "nextNode": "fairy_reveal_alt"
+    }
+  ]
+}

@@ -23,9 +23,11 @@
         "emotion": "belly"
       },
       {
+        "name": "...",
         "text": "He showed me his tiny wings, which seemed to be spread apart by fat."
       },
       {
+        "name": "...",
         "text": "Maybe that's why he sounded like a hummingbird, because they were working at full capacity to keep that amount of fat in the air?"
       },
       {
@@ -109,12 +111,15 @@
         "emotion": "surprised"
       },
       {
+        "name": "...",
         "text": "He flew away without answering my question."
       },
       {
+        "name": "...",
         "text": "I couldn't sleep for a long time after that."
       },
       {
+        "name": "...",
         "text": "But literally a couple of minutes later, I was fast asleep."
       }
     ],

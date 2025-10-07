@@ -1,17 +1,21 @@
 {
     "id": "school",
-    "background": "schoolHallway",
+    "background": "schoolOutside",
     "dialogue": [
       {
+        "name": "...",
         "text": "At school, the first thing I did was find my friend Mike."
       },
       {
+        "name": "...",
         "text": "I guess I'll check the soccer field."
       },
       {
+        "name": "...",
         "text": "There he is, playing every game that involves a ball, as usual."
       },
       {
+        "name": "...",
         "text": "Maybe he really is a dog, huh?"
       },
       {
@@ -35,6 +39,7 @@
         "emotion": "smile"
       },
       {
+        "name": "...",
         "text": "At that moment, he scores a goal right into the top corner and looks at me happily."
       },
       {

@@ -1,8 +1,9 @@
 {
     "id": "morning_scene",
-    "background": "noahRoomMorning",
+    "background": "NoahBedroom2",
     "dialogue": [
       {
+        "name": "...",
         "text": "Early morning, light was already seeping through the windows. However, last night had kept me awake. The strange tooth fairy, the thought that I myself would become a fairy..."
       },
       {
@@ -18,7 +19,7 @@
     ],
     "options": [
       {
-        "text": "end_of_demo",
+        "text": "Go to kitchen.",
         "nextNode": "breakfast"
       }
     ]

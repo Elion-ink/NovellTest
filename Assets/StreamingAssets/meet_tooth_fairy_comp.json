@@ -23,9 +23,11 @@
       "emotion": "belly"
     },
     {
+        "name": "Noah",
       "text": "He showed me his tiny wings, which seemed to be spread apart by fat."
     },
     {
+        "name": "Noah",
       "text": "Maybe that's why he sounded like a hummingbird, because they were working at full capacity to keep that amount of fat in the air?"
     },
     {
@@ -124,7 +126,7 @@
   "options": [
     {
       "text": "Continue",
-      "nextNode": "morning_scene"
+      "nextNode": "morning_scene_comp"
     }
   ]
 }

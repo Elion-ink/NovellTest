@@ -26,7 +26,7 @@
     "options": [
       {
         "text": "Leave the bathroom",
-        "nextNode": "noah_goodbye_room"
+        "nextNode": "noah_goodbye_parents"
       }
     ]
   }

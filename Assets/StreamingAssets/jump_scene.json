@@ -1,0 +1,89 @@
+{
+  "id": "jump_scene",
+  "background": "jump2",
+  "dialogue": [
+    {
+        "name": "...",
+      "text": "As I jumped, gusts of wind rushed into my face."
+    },
+    {
+        "name": "...",
+      "text": "It was difficult to keep my mouth closed."
+    },
+    {
+        "name": "...",
+      "text": "Only then did I wonder..."
+    },
+    {
+        "name": "...",
+      "text": "Where were my wings?"
+    },
+    {
+        "name": "...",
+      "text": "That was the last thing I had time to think about…"
+    },
+    {
+        "name": "...",
+      "text": "Everything around me rang."
+    },
+    {
+        "name": "...",
+      "text": "Not like bells, but as if someone had smashed my mother's vase right inside my head."
+    },
+    {
+        "name": "...",
+      "text": "I couldn't feel my legs. I couldn't feel anything."
+    },
+    {
+        "name": "...",
+      "text": "Only the ground was very cold and very hard beneath me."
+    },
+    {
+        "name": "...",
+      "text": "My mouth was open."
+    },
+    {
+        "name": "...",
+      "text": "I know how to breathe, I've done it a million times!"
+    },
+    {
+        "name": "...",
+      "text": "“B-breathe.”"
+    },
+    {
+        "name": "...",
+      "text": "And then... I didn't even have time to understand why I couldn't breathe…"
+    },
+    {
+        "name": "...",
+      "text": "Suddenly, I felt the Fairy's fingers clamp down on my jaw."
+    },
+    {
+        "name": "...",
+      "text": "I barely had time to blink."
+    },
+    {
+        "name": "...",
+      "text": "That fat fairy uncle with tiny wings just pulled out my teeth!"
+    },
+    {
+        "name": "...",
+      "text": "I saw them in his hand."
+    },
+    {
+        "name": "...",
+      "text": "Without saying a word to me, he flew away."
+    },
+    {
+        "name": "...",
+      "text": "I only heard the fluttering of his stupid wings as he disappeared overhead..."
+    }
+  ],
+  "options": [
+    {
+      "text": "Continue",
+      "nextNode": "aftermath_scene"
+    }
+  ]
+}
+

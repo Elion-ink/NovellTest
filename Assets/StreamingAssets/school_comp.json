@@ -1,0 +1,58 @@
+{
+    "id": "school_comp",
+    "background": "schoolOutside",
+    "dialogue": [
+      {
+        "name": "...",
+        "text": "At school, the first thing I did was find my friend Mike."
+      },
+      {
+        "name": "...",
+        "text": "I guess I'll check the soccer field."
+      },
+      {
+        "name": "...",
+        "text": "There he is, playing every game that involves a ball, as usual."
+      },
+      {
+        "name": "...",
+        "text": "Maybe he really is a dog, huh?"
+      },
+      {
+        "name": "Noah",
+        "text": "Mike!!!",
+        "emotion": "happy"
+      },
+      {
+        "name": "Mike",
+        "text": "Noah, is that you?",
+        "emotion": "confused"
+      },
+      {
+        "name": "Noah",
+        "text": "Yes, let's go to school!!",
+        "emotion": "smile"
+      },
+      {
+        "name": "Mike",
+        "text": "Just let me score a goal first!!!",
+        "emotion": "smile"
+      },
+      {
+        "name": "...",
+        "text": "At that moment, he scores a goal right into the top corner and looks at me happily."
+      },
+      {
+        "name": "Mike",
+        "text": "Let's go!! I'll leave at the height of my glory!",
+        "emotion": "happy"
+      }
+    ],
+    "options": [
+      {
+        "text": "Go inside the school",
+        "nextNode": "classroom_comp"
+      }
+    ]
+  }
+    

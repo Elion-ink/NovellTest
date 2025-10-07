@@ -1,0 +1,38 @@
+{
+  "id": "use_hammer_scene_comp",
+  "background": "kitchenkitchenWithDish",
+  "dialogue": [
+    {
+        "name": "...",
+      "text": "I swung my hammer at the lock"
+    },
+    {
+        "name": "...",
+      "text": "And saw all the sweets that I was forbidden to eat too much of."
+    },
+    {
+        "name": "...",
+      "text": "I heard the sound of his wings and immediately began to open the wrappers."
+    },
+    {
+        "name": "...",
+      "text": "One by one, I opened them."
+    },
+    {
+        "name": "...",
+      "text": "And, gathering a handful in my hand, I began to eat everything voraciously."
+    },
+    {
+        "name": "...",
+      "text": "One by one, I felt my teeth breaking and heard the fairy's angry voice."
+    }
+  ],
+  "options": [
+    {
+      "text": "Continue",
+      "nextNode": "fairy_reaction_scene_comp"
+    }
+  ]
+}
+
+

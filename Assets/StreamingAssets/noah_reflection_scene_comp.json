@@ -1,5 +1,5 @@
 {
-  "id": "noah_reflection_scene",
+  "id": "noah_reflection_scene_comp",
   "background": "bathroom_night",
   "dialogue": [
     {
@@ -15,7 +15,7 @@
   "options": [
     {
       "text": "Continue",
-      "nextNode": "return_to_room"
+      "nextNode": "return_to_room_comp"
     }
   ]
 }

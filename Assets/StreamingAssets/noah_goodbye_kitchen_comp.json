@@ -1,5 +1,5 @@
 {
-  "id": "noah_goodbye_kitchen",
+  "id": "noah_goodbye_kitchen_comp",
   "background": "kitchen_night",
   "dialogue": [
     {
@@ -71,8 +71,14 @@
   ],
   "options": [
     {
-      "text": "...",
+      "text": "Try to break lock.",
+      "nextNode": "rush_for_hammer"
+    },
+    {
+      "text": "Go to room.",
       "nextNode": "go_to_room"
     }
   ]
 }
+
+  

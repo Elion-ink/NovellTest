@@ -28,7 +28,8 @@
     },
     {
       "name": "...",
-      "text": "What’s happening?.."
+      "text": "What’s happening?..",
+      "background": "NoahBedroom_dark" 
     },
     {
       "name": "...",
@@ -64,9 +65,7 @@
     {
       "text": ".!?",
       "nextNode": "fairy_reveal"
-    }
-  ],
-  "options": [
+    },
     {
       "text": "Позвать родителей.",
       "nextNode": "fairy_reveal_alt"

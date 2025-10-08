@@ -1,0 +1,69 @@
+{
+    "id": "go_to_room",
+    "background": "noah_room_night",
+    "dialogue": [
+      {
+        "text": "Okay, since I've started..."
+      },
+      {
+        "text": "As my dad used to say, once you start something, finish it."
+      },
+      {
+        "text": "And after standing there for a while, I went back to the room."
+      },
+      {
+        "name": "Fairy",
+        "text": "I was already thinking of going to look for you.",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Fairy",
+        "text": "You didn't try to give up when we just started, did you?",
+        "emotion": "angry"
+      },
+      {
+        "name": "Noah",
+        "text": "Of course not! A soldier is ready for battle.",
+        "emotion": "happy"
+      },
+      {
+        "text": "I said at attention."
+      },
+      {
+        "name": "Fairy",
+        "text": "What are you doing?",
+        "emotion": "confused"
+      },
+      {
+        "name": "Noah",
+        "text": "Sorry, my dad and I were playing around.",
+        "emotion": "insecure"
+      },
+      {
+        "name": "Fairy",
+        "text": "Oh... Okay.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Noah",
+        "text": "By the way,"
+      },
+      {
+        "name": "Fairy",
+        "text": "we don't have a floor, but whatever.",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Fairy",
+        "text": "Enough distracting me, get ready to jump.",
+        "emotion": "angry"
+      }
+    ],
+    "options": [
+      {
+        "text": "JUMP",
+        "nextNode": "jump_scene"
+      }
+    ]
+  }
+  

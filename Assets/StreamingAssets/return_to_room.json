@@ -1,0 +1,109 @@
+{
+    "id": "return_to_room",
+    "background": "NoahBedroom",
+    "dialogue": [
+      {
+        "name": "...",
+        "text": "Returning to my room, I eagerly awaited the tooth fairy. Sitting on my bed, I reached into my pocket and rummaged through my candy wrappers, searching for my tooth."
+      },
+      {
+        "name": "...",
+        "text": "Finding it and pulling it out of my pocket, I clenched my fist and continued to wait for her. While waiting, I accidentally fell asleep sitting up."
+      },
+      {
+        "name": "...",
+        "text": "I woke up to the same unpleasant crack as last night."
+      },
+      {
+        "name": "Fairy",
+        "text": "Hey kid, what's up with the tooth? Did you find it?",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Noah",
+        "text": "Yes! I found it!",
+        "emotion": "happy"
+      },
+      {
+        "name": "...",
+        "text": "Opening my palm, I found that the tooth had disappeared."
+      },
+      {
+        "name": "Fairy",
+        "text": "Hey, are you kidding me?!",
+        "emotion": "angry"
+      },
+      {
+        "name": "Noah",
+        "text": "Wait, I had it in my hands just now, honestly!",
+        "emotion": "surprised"
+      },
+      {
+        "name": "...",
+        "text": "He made a displeased face and looked at me angrily."
+      },
+      {
+        "name": "...",
+        "text": "I immediately started searching and found it under the pillow, along with my tooth."
+      },
+      {
+        "name": "Noah",
+        "text": "Here, look! Mine and the one I found!",
+        "emotion": "happy"
+      },
+      {
+        "name": "...",
+        "text": "I said, almost shouting with joy, and held out my palm with two teeth to the fairy."
+      },
+      {
+        "name": "...",
+        "text": "He looked happily at my hand and wiped the drool that had flowed at the sight of the teeth."
+      },
+      {
+        "name": "Fairy",
+        "text": "Ahem, well, is it time to fly?",
+        "emotion": "Belly"
+      },
+      {
+        "name": "Noah",
+        "text": "What, right now?",
+        "emotion": "surprised"
+      },
+      {
+        "name": "Fairy",
+        "text": "You have to swallow both teeth and jump, only then can I conjure wings for you.",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Noah",
+        "text": "That sounds scary... Are you sure you're not lying?",
+        "emotion": "scared"
+      },
+      {
+        "name": "Fairy",
+        "text": "What, do you doubt me, kid?",
+        "emotion": "angry"
+      },
+      {
+        "name": "Noah",
+        "text": "Okay, I believe you, just let me say goodbye to my house.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Fairy",
+        "text": "Hurry up, while there's still time.",
+        "emotion": "Belly"
+      },
+      {
+        "name": "...",
+        "text": "I put the teeth in my pocket and decided to walk through the rooms one last time. I'll start with the bathroom."
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue",
+        "nextNode": "to_bathroom_scene"
+      }
+    ]
+  }
+  

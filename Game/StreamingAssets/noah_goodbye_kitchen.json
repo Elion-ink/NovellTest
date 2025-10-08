@@ -1,0 +1,30 @@
+{
+    "id": "noah_goodbye_kitchen",
+    "background": "kitchen_night",
+    "dialogue": [
+      { "name": "Noah", "text": "Here's the kitchen.", "emotion": "kalm" },
+      { "name": "Noah", "text": "My favorite plate.", "emotion": "smile" },
+      { "name": "Noah", "text": "Can I take it with me?", "emotion": "confused" },
+      { "name": "Noah", "text": "Although, I have nowhere to put it anyway.", "emotion": "insecure" },
+      { "name": "Noah", "text": "And this is the cupboard with sweets that Mom locks.", "emotion": "confused" },
+      { "name": "Noah", "text": "I never got to you...", "emotion": "insecure" },
+      { "name": "Noah", "text": "It's kind of sad to leave...", "emotion": "insecure" },
+      { "name": "Noah", "text": "Maybe I should stay after all...?", "emotion": "confused" },
+      { "name": "Noah", "text": "And to be honest, the fairy doesn't really inspire confidence...", "emotion": "insecure" },
+      { "name": "Noah", "text": "...Mike...", "emotion": "insecure" },
+      { "name": "Noah", "text": "...Mom...", "emotion": "insecure" },
+      { "name": "Noah", "text": "...Dad...", "emotion": "insecure" },
+      { "name": "Noah", "text": "What if I break the lock and ruin my teeth? Maybe then the fairy will leave me alone...?", "emotion": "scared" }
+    ],
+    "options": [
+      {
+        "text": "Try to break lock.",
+        "nextNode": "rush_for_hammer"
+      },
+      {
+        "text": "Go to room.",
+        "nextNode": "go_to_room"
+      }
+    ]
+  }
+  

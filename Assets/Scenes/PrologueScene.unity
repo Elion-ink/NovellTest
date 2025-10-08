@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   narratorText: {fileID: 1037950375}
-  delayBeforeNextScene: 5
+  delayBeforeNextScene: 7
 --- !u!4 &851699810
 Transform:
   m_ObjectHideFlags: 0
@@ -299,8 +299,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 58937c951060f8545a836ce03b148433, type: 2}
+  m_sharedMaterial: {fileID: 7552271803264109957, guid: 58937c951060f8545a836ce03b148433, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

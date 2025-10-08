@@ -1,0 +1,33 @@
+
+{
+    "id": "keep_trying_codes",
+    "background": "kitchen_night",
+    "dialogue": [
+      {
+        "text": "I swung my hammer at the lock"
+      },
+      {
+        "text": "And saw all the sweets that I was forbidden to eat too much of."
+      },
+      {
+        "text": "I heard the sound of his wings and immediately began to open the wrappers."
+      },
+      {
+        "text": "One by one, I opened them."
+      },
+      {
+        "text": "And, gathering a handful in my hand, I began to eat everything voraciously."
+      },
+      {
+        "text": "One by one, I felt my teeth breaking and heard the fairy's angry voice."
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue",
+        "nextNode": "fairy_reaction_scene"
+      }
+    ]
+  }
+  
+  

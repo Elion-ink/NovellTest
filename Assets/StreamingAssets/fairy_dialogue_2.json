@@ -1,0 +1,134 @@
+{
+    "id": "fairy_dialogue_2",
+    "background": "windowScare",
+    "dialogue": [
+      {
+        "name": "Noah",
+        "text": "So, you're saying that fairies look like this?",
+        "emotion": "confused"
+      },
+      {
+        "name": "Fairy",
+        "text": "How do you humans imagine fairies to be?",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Noah",
+        "text": "Nowadays, in cartoons, school, and books, fairies look like little fairies with wings and magic wands.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Fairy",
+        "text": "Well, I do have wings, hahahaha.",
+        "emotion": "belly"
+      },
+      {
+        "name": "...",
+        "text": "He showed me his tiny wings, which seemed to be spread apart by fat."
+      },
+      {
+        "name": "...",
+        "text": "Maybe that's why he sounded like a hummingbird, because they were working at full capacity to keep that amount of fat in the air?"
+      },
+      {
+        "name": "Fairy",
+        "text": "So, you're gonna give me your tooth, right?",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Noah",
+        "text": "I've always wanted to ask, why do you even need teeth?",
+        "emotion": "confused"
+      },
+      {
+        "name": "Fairy",
+        "text": "*crunch* Huh?!",
+        "emotion": "angry"
+      },
+      {
+        "name": "Noah",
+        "text": "What are you eating?",
+        "emotion": "scared"
+      },
+      {
+        "name": "Fairy",
+        "text": "Teeth, what else?",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Noah",
+        "text": "So you collect them... to eat?",
+        "emotion": "confused"
+      },
+      {
+        "name": "Fairy",
+        "text": "You could say that. But in reality, they hold the power to create new memories.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Noah",
+        "text": "Why do you need memories? Are they tasty?",
+        "emotion": "insecure"
+      },
+      {
+        "name": "Fairy",
+        "text": "Of course they're tasty, what did you think, kid?",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Noah",
+        "text": "Can I eat my tooth?",
+        "emotion": "confused"
+      },
+      {
+        "name": "Fairy",
+        "text": "I know what you're thinking, but don't even try it. With a body like yours, you'll just hurt your throat.",
+        "emotion": "disappointed"
+      },
+      {
+        "name": "Noah",
+        "text": "What? I didn't want to eat my tooth, it's still my memories!",
+        "emotion": "scared"
+      },
+      {
+        "name": "Fairy",
+        "text": "You're a smart kid, well done.",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Fairy",
+        "text": "Listen, kid, I need to fly on, collect teeth.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Fairy",
+        "text": "If you're interested in the taste of teeth, find at least one other person's tooth and I can turn you into a fairy.",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Noah",
+        "text": "I can become a fairy?!?!",
+        "emotion": "surprised"
+      },
+      {
+        "name": "...",
+        "text": "He flew away without answering my question."
+      },
+      {
+        "name": "...",
+        "text": "I couldn't sleep for a long time after that."
+      },
+      {
+        "name": "...",
+        "text": "But literally a couple of minutes later, I was fast asleep."
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue",
+        "nextNode": "morning_scene"
+      }
+    ]
+  }
+  
+  

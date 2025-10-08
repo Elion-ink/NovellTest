@@ -1,0 +1,43 @@
+{
+    "id": "fairy_reveal",
+    "background": "windowScare",
+    "dialogue": [
+      {
+        "name": "Fairy",
+        "text": "Why aren't you sleeping, brat?",
+        "emotion": "angry"
+      },
+      {
+        "name": "...",
+        "text": "An unpleasant, bass voice came from a massive silhouette."
+      },
+      {
+        "name": "Noah",
+        "text": "W-w-who are you?",
+        "emotion": "scared"
+      },
+      {
+        "name": "...",
+        "text": "Trying to get a clearer look at the silhouette, he managed to make out small wings behind its back, fluttering rapidly, working hard to support the creature's enormous body."
+      },
+      {
+        "name": "Noah",
+        "text": "Are you the tooth fairy? You look kind of strange...",
+        "emotion": "confused"
+      },
+      {
+        "name": "Fairy",
+        "text": "Just what I am, a regular tooth fairy.",
+        "emotion": "smirk"
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue",
+        "nextNode": "fairy_dialogue_2"
+      }
+    ]
+  }
+  
+  
+  

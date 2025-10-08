@@ -1,0 +1,21 @@
+{
+  "id": "noah_reflection_scene",
+  "background": "bathroom_night",
+  "dialogue": [
+    {
+      "text": "Will I still be able to be friends with Mike if I become a fairy?"
+    },
+    {
+      "text": "Will I still be able to play with my parents?"
+    },
+    {
+      "text": "While I was brushing my teeth, I forgot what I was thinking about and went to my room."
+    }
+  ],
+  "options": [
+    {
+      "text": "Continue",
+      "nextNode": "return_to_room"
+    }
+  ]
+}

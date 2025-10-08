@@ -1,0 +1,54 @@
+{
+    "id": "after_school_scene",
+    "background": "kitchenWithDishes",
+    "dialogue": [
+      {
+        "text": "When I got back, I went straight to the kitchen and joined everyone for dinner."
+      },
+      {
+        "name": "Mom",
+        "text": "Hi, son, how was your day?",
+        "emotion": "smile"
+      },
+      {
+        "name": "Noah",
+        "text": "Everything's fine, as usual.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Noah",
+        "text": "Mike and I are alike now, we both have a tooth missing.",
+        "emotion": "smile"
+      },
+      {
+        "name": "Mom",
+        "text": "Hahahaha, you're such a joker, son.",
+        "emotion": "smile"
+      },
+      {
+        "name": "Mom",
+        "text": "By the way, how is Mike doing?",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Noah",
+        "text": "Same as always. He's energetic and plays all kinds of ball games.",
+        "emotion": "happy"
+      },
+      {
+        "name": "Dad",
+        "text": "Mike is a good kid, be friends with him.",
+        "emotion": "kalm"
+      },
+      {
+        "text": "And then I thought about it."
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue",
+        "nextNode": "noah_reflection_scene"
+      }
+    ]
+  }
+  

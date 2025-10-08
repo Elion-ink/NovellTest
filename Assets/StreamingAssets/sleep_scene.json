@@ -4,79 +4,71 @@
   "dialogue": [
     {
       "name": "...",
-      "text": "Я лёг в приятную, прохладную постель… Как же хорошо, что окно было открытым весь день.",
-      "emotion": "relaxed"
+      "text": "I lay down in the nice, cool bed… It felt so good that the window had been open all day."
     },
     {
       "name": "...",
-      "text": "Я просунул руку под подушку и почувствовал приятную прохладу.",
-      "emotion": "calm"
+      "text": "I slid my hand under the pillow and felt a pleasant chill."
     },
     {
       "name": "...",
-      "text": "...Жаль, что фея заберёт зуб, и я не смогу показать его Майку. Он любит странные штуки, хахаха.",
-      "emotion": "smile"
+      "text": "...Too bad the fairy will take the tooth, and I won’t be able to show it to Mike. He loves weird stuff, hahaha."
     },
     {
       "name": "...",
-      "text": "Я положил зуб под подушку и лёг на спину, уставившись в потолок.",
-      "emotion": "calm"
+      "text": "I placed the tooth under the pillow and lay on my back, staring at the ceiling."
     },
     {
       "name": "...",
-      "text": "Веки будто ожили и по своей воле пытались сомкнуться, обняв друг друга…",
-      "emotion": "calm"
+      "text": "My eyelids seemed to come alive and tried to close on their own, hugging each other…"
     },
     {
       "name": "...",
-      "text": "*Послышался странный звук трескающейся стены…*",
+      "text": "*A strange sound of cracking wall echoed…*"
+    },
+    {
+      "name": "...",
+      "text": "What’s happening?..",
+      "background": "NoahBedroom_dark" 
+    },
+    {
+      "name": "...",
+      "text": "I felt fear squeezing me, as if shrinking me smaller and smaller…"
+    },
+    {
+      "name": "...",
+      "text": "My imagination had already started creating strange shapes that frightened me, so I stared at the window, trying to find at least some calm in it."
+    },
+    {
+      "name": "...",
+      "text": "The moonlight stopped coming into the room…"
+    },
+    {
+      "name": "...",
+      "text": "Something strange and huge was trying to squeeze through my window."
+    },
+    {
+      "name": "Noah",
+      "text": "What’s going on??",
       "emotion": "scared"
     },
     {
       "name": "...",
-      "text": "Что происходит?..",
-      "emotion": "scared"
+      "text": "— I said in a slightly trembling voice."
     },
     {
       "name": "...",
-      "text": "Я почувствовал, что страх сжимает меня, будто уменьшая в размерах…",
-      "emotion": "scared"
-    },
-    {
-      "name": "...",
-      "text": "Фантазия уже начала придумывать странные образы, что пугали меня, из-за чего я уставился в окно, пытаясь найти хоть какое-то спокойствие в нём.",
-      "emotion": "insecure"
-    },
-    {
-      "name": "...",
-      "text": "В комнату перестал попадать лунный свет…",
-      "emotion": "insecure"
-    },
-    {
-      "name": "...",
-      "text": "Что-то странное и большое пыталось втиснуться в моё окно.",
-      "emotion": "confused"
-    },
-    {
-      "name": "...",
-      "text": "Что происходит??",
-      "emotion": "scared"
-    },
-    {
-      "name": "...",
-      "text": "– сказал я чуть дрожащим голосом.",
-      "emotion": "scared"
-    },
-    {
-      "name": "...",
-      "text": "Что-то громадное и булькающее приближалось ко мне… Шагов не было слышно, лишь стрекотание крыльев как у колибри.",
-      "emotion": "scared"
+      "text": "Something massive and bubbling was getting closer to me… There were no footsteps, only the fluttering of wings like a hummingbird."
     }
   ],
   "options": [
     {
       "text": ".!?",
-      "nextNode": "reaction_on_fairy"
+      "nextNode": "fairy_reveal"
+    },
+    {
+      "text": "Позвать родителей.",
+      "nextNode": "fairy_reveal_alt"
     }
   ]
 }

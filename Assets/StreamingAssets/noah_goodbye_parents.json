@@ -1,0 +1,39 @@
+{
+    "id": "noah_goodbye_parents",
+    "background": "bedroom_night",
+    "dialogue": [
+      {
+        "name": "Noah",
+        "text": "Here come my parents.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Noah",
+        "text": "Goodbye, dear parents, I love you...",
+        "emotion": "smile"
+      },
+      {
+        "name": "...",
+        "text": "Dad is snoring as usual."
+      },
+      {
+        "name": "...",
+        "text": "Oh, even in her sleep, Mom has beautiful hair..."
+      },
+      {
+        "name": "...",
+        "text": "Why is Dad's hammer lying on the floor?"
+      },
+      {
+        "name": "...",
+        "text": "Oh well, never mind."
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue",
+        "nextNode": "fairy_transformation_scene"
+      }
+    ]
+  }
+  

@@ -1,0 +1,122 @@
+{
+    "id": "classroom",
+    "background": "school",
+    "dialogue": [
+      {
+        "name": "Noah",
+        "text": "So, how are your classes going today?",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Mike",
+        "text": "I still don't understand the difference between math and algebra…",
+        "emotion": "confused"
+      },
+      {
+        "name": "Mike",
+        "text": "And why do we need geometry... They made it separate from algebra.",
+        "emotion": "confused"
+      },
+      {
+        "name": "Mike",
+        "text": "Why couldn't they just leave it all as math…",
+        "emotion": "calm"
+      },
+      {
+        "name": "Noah",
+        "text": "I agree, I wonder why people think you're stupid?",
+        "emotion": "smirk"
+      },
+      {
+        "name": "Mike",
+        "text": "Really? I haven't noticed, hahahaha.",
+        "emotion": "smile"
+      },
+      {
+        "name": "Mike",
+        "text": "Is it just me, or are you whistling while you talk?",
+        "emotion": "confused"
+      },
+      {
+        "name": "...",
+        "text": "Spreading my fingers across my mouth, I pointed to the soldier who was missing from the row."
+      },
+      {
+        "name": "Mike",
+        "text": "Did you lose your teeth, baby?",
+        "emotion": "smile"
+      },
+      {
+        "name": "Noah",
+        "text": "Mike, it's called a baby tooth…",
+        "emotion": "insecure"
+      },
+      {
+        "name": "Mike",
+        "text": "The main thing is that you understand.",
+        "emotion": "calm"
+      },
+      {
+        "name": "...",
+        "text": "Suddenly, we heard the sound of slaps."
+      },
+      {
+        "name": "...",
+        "text": "Turning around, we saw two high school students fighting."
+      },
+      {
+        "name": "...",
+        "text": "The first one tried to kick the second one, but slipped and fell face down."
+      },
+      {
+        "name": "...",
+        "text": "The second one tried to hit him on the back of the head, but his fist hit the floor."
+      },
+      {
+        "name": "...",
+        "text": "And that was the end of the mortal combat..."
+      },
+      {
+        "name": "...",
+        "text": "After the fight, they got up and helped each other to the classroom."
+      },
+      {
+        "name": "...",
+        "text": "As soon as they got up, I noticed that the fallen boy's tooth was lying on the floor."
+      },
+      {
+        "name": "...",
+        "text": "Seizing the opportunity, I quickly ran over and put it in my pocket."
+      },
+      {
+        "name": "Mike",
+        "text": "Why do people call me weird when you put other people's teeth in your pockets, ahahaha.",
+        "emotion": "smile"
+      },
+      {
+        "name": "Noah",
+        "text": "It's for the Tooth Fairy!",
+        "emotion": "happy"
+      },
+      {
+        "name": "Mike",
+        "text": "What do you mean? You're helping the fairy?",
+        "emotion": "confused"
+      },
+      {
+        "name": "...",
+        "text": "Damn, I let it slip, what should I do?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Tell Mike everything",
+        "nextNode": "noah_mike_fairy_secret"
+      },
+      {
+        "text": "Stay silent",
+        "nextNode": "secret_scene_comp"
+      }
+    ]
+  }
+  

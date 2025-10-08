@@ -1,0 +1,33 @@
+{
+    "id": "noah_goodbye_bathroom",
+    "background": "bathroom_night",
+    "dialogue": [
+      {
+        "name": "Noah",
+        "text": "Well, goodbye mirror...",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Noah",
+        "text": "It's a shame, I've only just grown up enough to brush my teeth without a stool.",
+        "emotion": "insecure"
+      },
+      {
+        "name": "Noah",
+        "text": "Ah, well, goodbye toothbrush.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Noah",
+        "text": "Although, it's not like I'll miss you.",
+        "emotion": "smile"
+      }
+    ],
+    "options": [
+      {
+        "text": "Leave the bathroom",
+        "nextNode": "noah_goodbye_parents"
+      }
+    ]
+  }
+  

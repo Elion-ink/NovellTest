@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class DialogueLine
@@ -40,6 +41,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Изображения персонажей")]
     public Image toothFairyImage;
     public Image noahImage;
+    public Image mikeImage;
     public Image backgroundImage;
 
     [Header("Анимация панели")]
@@ -112,6 +114,13 @@ public class DialogueManager : MonoBehaviour
 
     void LoadNode(string nodeId)
     {
+        // 💡 Проверяем, не хотим ли мы выйти в главное меню
+        if (nodeId == "END")
+        {
+            SceneManager.LoadScene("MainMenu"); // Убедись, что сцена называется MainMenu
+            return;
+        }
+
         string path = Path.Combine(Application.streamingAssetsPath, nodeId + ".json");
         string json = File.ReadAllText(path);
         currentNode = JsonUtility.FromJson<DialogueNode>(json);
@@ -180,10 +189,13 @@ public class DialogueManager : MonoBehaviour
 
     void UpdateCharacterSprite(string characterName, string emotion)
     {
+        // Сначала выключаем всех
         if (toothFairyImage != null) toothFairyImage.enabled = false;
         if (noahImage != null) noahImage.enabled = false;
+        if (mikeImage != null) mikeImage.enabled = false;
 
-        if (characterName == "Зубная Фея" && toothFairyImage != null)
+        // Зубная фея
+        if (characterName == "Fairy" && toothFairyImage != null)
         {
             toothFairyImage.enabled = true;
             if (!string.IsNullOrEmpty(emotion))
@@ -195,7 +207,8 @@ public class DialogueManager : MonoBehaviour
                     Debug.LogWarning($"Не найден спрайт эмоции '{emotion}' для Зубной Феи.");
             }
         }
-        else if (characterName == "Ноа" && noahImage != null)
+        // Ноа
+        else if (characterName == "Noah" && noahImage != null)
         {
             noahImage.enabled = true;
             if (!string.IsNullOrEmpty(emotion))
@@ -205,6 +218,19 @@ public class DialogueManager : MonoBehaviour
                     noahImage.sprite = sprite;
                 else
                     Debug.LogWarning($"Не найден спрайт эмоции '{emotion}' для Ноа.");
+            }
+        }
+        // Майк
+        else if (characterName == "Mike" && mikeImage != null)
+        {
+            mikeImage.enabled = true;
+            if (!string.IsNullOrEmpty(emotion))
+            {
+                Sprite sprite = Resources.Load<Sprite>($"Characters/Mike/{emotion}");
+                if (sprite != null)
+                    mikeImage.sprite = sprite;
+                else
+                    Debug.LogWarning($"Не найден спрайт эмоции '{emotion}' для Майка.");
             }
         }
     }
@@ -218,10 +244,8 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // 🔹 Исправленный метод ShowOptions с локальной переменной для правильного замыкания
     void ShowOptions()
     {
-        //optionsContainer.transform.GetComponent<VerticalLayoutGroup>().enabled = true;
         ClearOptions();
 
         if (currentNode.options == null || currentNode.options.Length == 0)
@@ -231,22 +255,16 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-for(int i = 0; i < currentNode.options.Length; i++)
-{
-    //GameObject btnObj = Instantiate(optionButtonPrefab, optionsContainer.transform);
-    optionsButtons[i].gameObject.SetActive(true);
-    TextMeshProUGUI btnText = optionsButtons[i].GetComponentInChildren<TextMeshProUGUI>();
-    btnText.text = currentNode.options[i].text;
+        for (int i = 0; i < currentNode.options.Length; i++)
+        {
+            optionsButtons[i].gameObject.SetActive(true);
+            TextMeshProUGUI btnText = optionsButtons[i].GetComponentInChildren<TextMeshProUGUI>();
+            btnText.text = currentNode.options[i].text;
 
-    //Button btn = optionsButtons[i];
-
-    DialogueOption capturedOption = currentNode.options[i];
-    optionsButtons[i].onClick.AddListener(() => LoadNode(capturedOption.nextNode));
-}
-        //optionsContainer.transform.GetComponent<VerticalLayoutGroup>().enabled = false;
+            DialogueOption capturedOption = currentNode.options[i];
+            optionsButtons[i].onClick.AddListener(() => LoadNode(capturedOption.nextNode));
+        }
     }
-
-
 
     public void OnNextButton()
     {

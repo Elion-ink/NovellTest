@@ -1,5 +1,5 @@
 {
-    "id": "noah_goodbye_parents",
+    "id": "noah_goodbye_parents_comp",
     "background": "bedroom_night",
     "dialogue": [
       {
@@ -32,7 +32,7 @@
     "options": [
       {
         "text": "Continue",
-        "nextNode": "noah_goodbye_kitchen"
+        "nextNode": "noah_goodbye_kitchen_comp"
       }
     ]
   }

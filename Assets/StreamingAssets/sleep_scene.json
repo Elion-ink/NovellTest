@@ -24,7 +24,8 @@
     },
     {
       "name": "...",
-      "text": "*A strange sound of cracking wall echoed…*"
+      "text": "*A strange sound of cracking wall echoed…*",
+      "background": "windowScare"
     },
     {
       "name": "...",

@@ -11,6 +11,7 @@ public class DialogueLine
     public string name;
     public string text;
     public string emotion;
+    public string background; // 💡 новое поле для смены фона
 }
 
 [System.Serializable]
@@ -53,7 +54,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject pauseMenu;
 
     [Header("Эффект печати")]
-    public float typingSpeed = 0.03f; // скорость печати
+    public float typingSpeed = 0.03f;
 
     private DialogueNode currentNode;
     private int dialogueIndex = 0;
@@ -114,10 +115,10 @@ public class DialogueManager : MonoBehaviour
 
     void LoadNode(string nodeId)
     {
-        // 💡 Проверяем, не хотим ли мы выйти в главное меню
+        // 💡 Переход в главное меню
         if (nodeId == "END")
         {
-            SceneManager.LoadScene("MainMenu"); // Убедись, что сцена называется MainMenu
+            SceneManager.LoadScene("MainMenu");
             return;
         }
 
@@ -126,13 +127,10 @@ public class DialogueManager : MonoBehaviour
         currentNode = JsonUtility.FromJson<DialogueNode>(json);
         dialogueIndex = 0;
 
+        // Загружаем фон из корня узла
         if (backgroundImage != null && !string.IsNullOrEmpty(currentNode.background))
         {
-            Sprite bgSprite = Resources.Load<Sprite>($"Backgrounds/{currentNode.background}");
-            if (bgSprite != null)
-                backgroundImage.sprite = bgSprite;
-            else
-                Debug.LogWarning($"Фон '{currentNode.background}' не найден в Resources/Backgrounds/");
+            SetBackground(currentNode.background);
         }
 
         if (dialoguePanel != null)
@@ -150,9 +148,14 @@ public class DialogueManager : MonoBehaviour
         if (dialogueIndex < currentNode.dialogue.Length)
         {
             DialogueLine line = currentNode.dialogue[dialogueIndex];
-
             nameText.text = line.name;
             dialogueIndex++;
+
+            // 💡 Сменить фон, если указан в этой реплике
+            if (!string.IsNullOrEmpty(line.background))
+            {
+                SetBackground(line.background);
+            }
 
             if (typingCoroutine != null)
                 StopCoroutine(typingCoroutine);
@@ -187,14 +190,21 @@ public class DialogueManager : MonoBehaviour
         isTyping = false;
     }
 
+    void SetBackground(string bgName)
+    {
+        Sprite bgSprite = Resources.Load<Sprite>($"Backgrounds/{bgName}");
+        if (bgSprite != null)
+            backgroundImage.sprite = bgSprite;
+        else
+            Debug.LogWarning($"Фон '{bgName}' не найден в Resources/Backgrounds/");
+    }
+
     void UpdateCharacterSprite(string characterName, string emotion)
     {
-        // Сначала выключаем всех
         if (toothFairyImage != null) toothFairyImage.enabled = false;
         if (noahImage != null) noahImage.enabled = false;
         if (mikeImage != null) mikeImage.enabled = false;
 
-        // Зубная фея
         if (characterName == "Fairy" && toothFairyImage != null)
         {
             toothFairyImage.enabled = true;
@@ -207,7 +217,6 @@ public class DialogueManager : MonoBehaviour
                     Debug.LogWarning($"Не найден спрайт эмоции '{emotion}' для Зубной Феи.");
             }
         }
-        // Ноа
         else if (characterName == "Noah" && noahImage != null)
         {
             noahImage.enabled = true;
@@ -220,7 +229,6 @@ public class DialogueManager : MonoBehaviour
                     Debug.LogWarning($"Не найден спрайт эмоции '{emotion}' для Ноа.");
             }
         }
-        // Майк
         else if (characterName == "Mike" && mikeImage != null)
         {
             mikeImage.enabled = true;

@@ -1,6 +1,6 @@
 {
   "id": "start",
-  "background": "kitchenwithdish",
+  "background": "apple",
   "dialogue": [
     {
       "name": "Mom",
@@ -30,7 +30,8 @@
     {
       "name": "Noah",
       "text": "Ow!!!",
-      "emotion": "scared"
+      "emotion": "scared",
+      "background": "appleBitten"
     },
     {
       "name": "...",

@@ -34,7 +34,7 @@
     "options": [
       {
         "text": "Continue",
-        "nextNode": "fairy_dialogue_2"
+        "nextNode": "meet_tooth_fairy"
       }
     ]
   }

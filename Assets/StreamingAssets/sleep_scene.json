@@ -68,7 +68,7 @@
       "nextNode": "fairy_reveal"
     },
     {
-      "text": "Позвать родителей.",
+      "text": "Call parents.",
       "nextNode": "fairy_reveal_alt"
     }
   ]

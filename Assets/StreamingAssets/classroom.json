@@ -58,7 +58,8 @@
       },
       {
         "name": "...",
-        "text": "Suddenly, we heard the sound of slaps."
+        "text": "Suddenly, we heard the sound of slaps.",
+        "background": "schoolHallway"
       },
       {
         "name": "...",
@@ -78,7 +79,8 @@
       },
       {
         "name": "...",
-        "text": "After the fight, they got up and helped each other to the classroom."
+        "text": "After the fight, they got up and helped each other to the classroom.",
+        "background": "school"
       },
       {
         "name": "...",
@@ -115,7 +117,7 @@
       },
       {
         "text": "Stay silent",
-        "nextNode": "secret_scene_comp"
+        "nextNode": "secret_scene"
       }
     ]
   }

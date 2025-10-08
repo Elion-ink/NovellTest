@@ -82,7 +82,7 @@
   "options": [
     {
       "text": "Continue",
-      "nextNode": "aftermath_scene"
+      "nextNode": "fairy_jump_prep"
     }
   ]
 }

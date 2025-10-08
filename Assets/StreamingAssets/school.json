@@ -1,6 +1,7 @@
 {
     "id": "school",
     "background": "schoolOutside",
+    "music": "MikeSong",
     "dialogue": [
       {
         "name": "...",

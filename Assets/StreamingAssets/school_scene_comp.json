@@ -51,7 +51,7 @@
     "options": [
       {
         "text": "Go inside the school",
-        "nextNode": "classroom"
+        "nextNode": "classroom_comp"
       }
     ]
   }

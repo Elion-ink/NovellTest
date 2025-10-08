@@ -1,6 +1,6 @@
 {
   "id": "laptop_scene",
-  "background": "noahRoomNightLaptop",
+  "background": "laptop",
   "dialogue": [
     {
       "name": "Noah",
@@ -12,19 +12,16 @@
       "text": "I opened my laptop and decided to play a game I recently downloaded."
     },
     {
-      "name": "Noah",
-      "text": "What was it called? The game... Was it called “The Game?!” It was made by my favorite developers, EcoKvas!",
-      "emotion": "happy"
+      "name": "...",
+      "text": "What was it called? The game... Was it called “The Game?!” It was made by my favorite developers, EcoKvas!"
     },
     {
-      "name": "Noah",
-      "text": "Why are we playing as tumbleweeds?",
-      "emotion": "confused"
+      "name": "...",
+      "text": "Why are we playing as tumbleweeds?"
     },
     {
-      "name": "Noah",
-      "text": "Did I just collect “sausege”? Even I know that it's spelled “sausage”...",
-      "emotion": "insecure"
+      "name": "...",
+      "text": "Did I just collect “sausege”? Even I know that it's spelled “sausage”..."
     },
     {
       "name": "...",
@@ -78,7 +75,7 @@
   "options": [
     {
       "text": "Continue",
-      "nextNode": "meet_tooth_fairy"
+      "nextNode": "meet_tooth_fairy_comp"
     }
   ]
 }

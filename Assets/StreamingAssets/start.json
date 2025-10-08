@@ -1,6 +1,7 @@
 {
   "id": "start",
   "background": "apple",
+  "music": "Morning",
   "dialogue": [
     {
       "name": "Mom",

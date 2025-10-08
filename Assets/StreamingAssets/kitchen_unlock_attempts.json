@@ -1,6 +1,6 @@
 {
     "id": "kitchen_unlock_attempts",
-    "background": "kitchen_night",
+    "background": "kitchenWithoutDish",
     "dialogue": [
       {
         "name": "Noah",
@@ -31,6 +31,10 @@
       }
     ],
     "options": [
+        {
+        "text": "",
+        "nextNode": ""
+        }
         ]
   }
   

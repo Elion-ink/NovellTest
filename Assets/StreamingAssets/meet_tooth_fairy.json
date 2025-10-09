@@ -1,6 +1,7 @@
 {
   "id": "meet_tooth_fairy",
   "background": "windowScare",
+  "music": "morning",
   "dialogue": [
     {
       "name": "Noah",

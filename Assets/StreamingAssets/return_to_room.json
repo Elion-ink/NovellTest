@@ -62,7 +62,7 @@
       {
         "name": "Fairy",
         "text": "Ahem, well, is it time to fly?",
-        "emotion": "Belly"
+        "emotion": "disappoint"
       },
       {
         "name": "Noah",
@@ -92,7 +92,7 @@
       {
         "name": "Fairy",
         "text": "Hurry up, while there's still time.",
-        "emotion": "Belly"
+        "emotion": "disappoint"
       },
       {
         "name": "...",

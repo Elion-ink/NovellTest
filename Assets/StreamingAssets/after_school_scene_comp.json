@@ -1,8 +1,9 @@
 {
     "id": "after_school_scene_comp",
-    "background": "kitchenWithDishes",
+    "background": "kitchenWithDish",
     "dialogue": [
       {
+        "name": "...",
         "text": "When I got back, I went straight to the kitchen and joined everyone for dinner."
       },
       {

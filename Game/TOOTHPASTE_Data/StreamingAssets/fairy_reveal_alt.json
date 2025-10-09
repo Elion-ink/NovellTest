@@ -1,0 +1,40 @@
+{
+    "id": "fairy_reveal_alt",
+    "background": "windowScare",
+    "dialogue": [
+      {
+        "name": "Weird Silhouette",
+        "text": "Why aren't you sleeping, brat?",
+        "emotion": "angry"
+      },
+      {
+        "name": "...",
+        "text": "An unpleasant, bass voice came from a massive silhouette."
+      },
+      {
+        "name": "Noah",
+        "text": "MOM!!! DAD!!!",
+        "emotion": "scared"
+      },
+      {
+        "name": "Weird Silhouette",
+        "text": "Kid, save your voice, you're screaming like you're being cut."
+      },
+      {
+        "name": "Noah",
+        "text": "A-a-a! What are you?",
+        "emotion": "scared"
+      },
+      {
+        "name": "Weird Silhouette",
+        "text": "I'm the tooth fairy. Someone, I reckon it's you, has lost a tooth, so I've come to collect it. And anyway, I'm not so scary, that you need to scream like that. It's rude, punk."
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue",
+        "nextNode": "fairy_dialogue_2"
+      }
+    ]
+  }
+  

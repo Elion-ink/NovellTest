@@ -1,0 +1,82 @@
+{
+  "id": "laptop_scene",
+  "background": "laptop",
+  "dialogue": [
+    {
+      "name": "Noah",
+      "text": "Oh well, I'll play a little, there's still time before I go to bed.",
+      "emotion": "kalm"
+    },
+    {
+      "name": "...",
+      "text": "I opened my laptop and decided to play a game I recently downloaded."
+    },
+    {
+      "name": "...",
+      "text": "What was it called? The game... Was it called “The Game?!” It was made by my favorite developers, EcoKvas!"
+    },
+    {
+      "name": "...",
+      "text": "Why are we playing as tumbleweeds?"
+    },
+    {
+      "name": "...",
+      "text": "Did I just collect “sausege”? Even I know that it's spelled “sausage”..."
+    },
+    {
+      "name": "...",
+      "text": "Suddenly, a loud jumpscare flashed on the screen!",
+      "background": "windowScare",
+      "music": "dead"
+    },
+    {
+      "name": "...",
+      "text": "Falling off my chair onto the floor, I tried to get a better look at what had scared me."
+    },
+    {
+      "name": "Noah",
+      "text": "WHAT ARE YOU?! GET OUT OF MY ROOM, YOU FAT FLY!!",
+      "emotion": "scared"
+    },
+    {
+      "name": "Fairy",
+      "text": "WHO DID YOU CALL A FLY, PUNK?",
+      "emotion": "angry",
+      "background": "windowScare"
+    },
+    {
+      "name": "...",
+      "text": "I looked closely and saw a strange and large creature."
+    },
+    {
+      "name": "Noah",
+      "text": "AAAH!!! WHAT ARE YOU?!?",
+      "emotion": "scared"
+    },
+    {
+      "name": "...",
+      "text": "This time, I could see its belly with holes in it, inside which were teeth."
+    },
+    {
+      "name": "Strange figure",
+      "text": "Kid, watch your voice, you scream like you're being cut.",
+      "emotion": "disappointed"
+    },
+    {
+      "name": "Noah",
+      "text": "A-a-a! What are you??",
+      "emotion": "scared"
+    },
+    {
+      "name": "Strange figure",
+      "text": "I'm the tooth fairy. Someone, I understand it's you, lost a tooth, so I came to take it. And anyway, I'm not so scary that you need to scream like that. It's rude, kid.",
+      "emotion": "smirk"
+    }
+  ],
+  "options": [
+    {
+      "text": "Continue",
+      "nextNode": "meet_tooth_fairy_comp"
+    }
+  ]
+}

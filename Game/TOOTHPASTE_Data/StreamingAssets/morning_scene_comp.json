@@ -1,0 +1,27 @@
+{
+    "id": "morning_scene",
+    "background": "NoahBedroom2",
+    "dialogue": [
+      {
+        "name": "...",
+        "text": "Early morning, light was already seeping through the windows. However, last night had kept me awake. The strange tooth fairy, the thought that I myself would become a fairy..."
+      },
+      {
+        "name": "Mom",
+        "text": "Noah, wake up! Go have breakfast and get ready for school.",
+        "emotion": "calm"
+      },
+      {
+        "name": "Noah",
+        "text": "Yeah, okay, Mom.",
+        "emotion": "kalm"
+      }
+    ],
+    "options": [
+      {
+        "text": "Go to kitchen.",
+        "nextNode": "breakfast_comp"
+      }
+    ]
+  }
+  

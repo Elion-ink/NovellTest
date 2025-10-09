@@ -26,7 +26,8 @@
     {
       "name": "...",
       "text": "Suddenly, a loud jumpscare flashed on the screen!",
-      "background": "windowScare"
+      "background": "windowScare",
+      "music": "dead"
     },
     {
       "name": "...",

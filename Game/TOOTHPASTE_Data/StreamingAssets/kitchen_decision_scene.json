@@ -1,0 +1,46 @@
+{
+    "id": "kitchen_decision_scene",
+    "background": "kitchen_night",
+    "dialogue": [
+      {
+        "name": "Noah",
+        "text": "Yes, I still can't leave my family, I love them. Mike is dear to me.",
+        "emotion": "kalm"
+      },
+      {
+        "name": "Noah",
+        "text": "I have to open the lock, but I don't know the password...",
+        "emotion": "insecure"
+      },
+      {
+        "text": "0312? Doesn't work."
+      },
+      {
+        "text": "1762? No."
+      },
+      {
+        "text": "6234, 2351, 3489, 1871, 2833..."
+      },
+      {
+        "text": "Nothing works..."
+      },
+      {
+        "name": "Noah",
+        "text": "It must be the hammer!",
+        "emotion": "surprised"
+      }
+    ],
+    "options": [
+      {
+        "text": "Use the hammer",
+        "nextNode": "rush_for_hammer"
+      },
+      {
+        "text": "Go to room.",
+        "nextNode": "keep_trying_codes"
+      }
+    ]
+  }
+  
+  
+  

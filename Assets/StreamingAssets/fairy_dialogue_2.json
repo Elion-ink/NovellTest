@@ -1,6 +1,7 @@
 {
     "id": "fairy_dialogue_2",
     "background": "windowScare1",
+    "music": "morning",
     "dialogue": [
       {
         "name": "Noah",

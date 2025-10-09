@@ -1,8 +1,9 @@
 {
     "id": "after_school_scene",
-    "background": "kitchenWithDishes",
+    "background": "kitchenWithDish",
     "dialogue": [
       {
+        "name": "...",
         "text": "When I got back, I went straight to the kitchen and joined everyone for dinner."
       },
       {
@@ -41,6 +42,7 @@
         "emotion": "kalm"
       },
       {
+        "name": "...",
         "text": "And then I thought about it."
       }
     ],

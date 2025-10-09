@@ -25,7 +25,8 @@
     {
       "name": "...",
       "text": "*A strange sound of cracking wall echoed…*",
-      "background": "windowScare"
+      "background": "windowScare",
+      "music": "dead"
     },
     {
       "name": "...",

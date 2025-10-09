@@ -1,0 +1,37 @@
+{
+  "id": "bathroom",
+  "background": "bathroom1",
+  "dialogue": [
+    {
+      "name": "Noah",
+      "text": "Hmmm… I wonder, will the fairy really come? And why does it have to be when we’re asleep…?",
+      "emotion": "insecure"
+    },
+    {
+      "name": "Noah",
+      "text": "Why can’t she just come and take the tooth herself?",
+      "emotion": "surprised"
+    },
+    {
+      "name": "Noah",
+      "text": "Mom never tells me anything.",
+      "emotion": "confused"
+    },
+    {
+      "name": "Noah",
+      "text": "It’s either fairies can’t show up in person, or something else again…",
+      "emotion": "insecure"
+    },
+    {
+      "name": "Noah",
+      "text": "...",
+      "emotion": "kalm"
+    }
+  ],
+  "options": [
+    {
+      "text": "Brush teeth",
+      "nextNode": "wash_teeth"
+    }
+  ]
+}

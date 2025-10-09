@@ -1,0 +1,20 @@
+{
+  "id": "rush_for_hammer_comp",
+  "background": "parentsSleep",
+  "dialogue": [
+    {
+    "name": "...",
+      "text": "I ran into my parents' room, and the sounds were drowned out by my dad's snoring."
+    },
+    {
+        "name": "...",
+      "text": "I grabbed a hammer and ran to the kitchen."
+    }
+  ],
+  "options": [
+    {
+      "text": "Continue",
+      "nextNode": "use_hammer_scene"
+    }
+  ]
+}
